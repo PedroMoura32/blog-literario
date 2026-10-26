@@ -40,14 +40,14 @@ Informar o que aconteceu, com precisão e data. Tom direto. Exija **novidade rea
 
 Aqui o objetivo é sugerir uma boa leitura todo dia. A falta de notícia **não** é motivo para ficar sem post.
 
-- **Parta da Estante.** Leia `data/estante.json`. Pesquise livros parecidos (use as `consultas`, trocando `{título da Estante}` e `{autor da Estante}`).
+- **Parta da Estante.** Leia `data/estante.json`. A Estante lista livros **lidos**, não necessariamente gostados: sem `nota`, não diga que ela "gostou"; escreva "para quem leu" ou "se você leu". Pesquise livros parecidos (use as `consultas`, trocando `{título da Estante}` e `{autor da Estante}`).
 - **Nunca indique um livro que já está na Estante** (o script recusa) nem um já indicado antes (compare `livro.titulo` em `data/index.json` e os arquivos de `data/posts/indicacoes/`).
 - **Varie:** alterne "perto do gosto" (parecido com algo da Estante) e "um passo além" (gênero, época ou país novo). Alterne brasileiros e traduzidos, clássicos e contemporâneos, ficção e não ficção, livros curtos e longos.
 - **Notas na Estante:** quando um livro tiver `nota`, nota alta pesa a favor de livros parecidos; nota baixa, evite parecidos. Se houver `comentario`, leve em conta.
 - **Ponto de partida do gosto** (hipótese para refinar com o Pedro, não um perfil fechado): a Estante mistura clássicos curtos, romances brasileiros contemporâneos, ficção reconfortante, suspense, não ficção e livros de formação.
 - Formato `indicacao`, 180 a 320 palavras, campo `livro` obrigatório. Estrutura:
   1. Parágrafo "por que combina": ligue a sugestão a 1 a 3 livros da Estante, citando-os pelo título.
-  2. Parágrafo "o que é": do que trata, sem spoilers. Ano e editora no Brasil, só se confirmados.
+  2. Parágrafo "o que é": do que trata, sem spoilers. Ano e editora no Brasil, só se confirmados. Ao citar o Skoob, diga "a página do livro no Skoob" (a palavra "Estante" é só desta Estante).
   3. `h2` "Antes de começar": tamanho aproximado, ritmo e temas sensíveis (luto, violência etc.), se houver.
   4. `callout` com título "Combina se…" e uma frase.
   5. De 2 a 4 fontes, incluindo a página do livro (editora, Skoob ou Goodreads).
@@ -57,6 +57,7 @@ Aqui o objetivo é sugerir uma boa leitura todo dia. A falta de notícia **não*
 Resumir, com palavras próprias, o que leitores e críticos dizem de um livro.
 
 - **Qual livro:** alterne entre (a) um livro da Estante, (b) um livro indicado nos últimos 30 dias, (c) um lançamento em destaque no `mercado`.
+- **Todo dia, um post.** Se o livro escolhido não render 3 fontes de opinião, troque de livro; não pule o dia.
 - Procure pelo menos 3 fontes de opinião diferentes (resenha de jornal, revista ou blog, mais avaliações de leitores em plataformas como Skoob e Goodreads).
 - Formato `comentarios`, 250 a 400 palavras, campo `livro` obrigatório. Estrutura: abertura com o consenso em uma frase; `h2` "O que elogiam"; `h2` "O que criticam"; `h2` "Onde divergem" (se houver); `callout` "Para quem é" com uma frase.
 - **Atribua cada opinião à fonte, com link** (`[Nome da fonte](url)`). Nunca apresente como consenso o que só uma fonte disse.
@@ -85,7 +86,7 @@ O formato precisa estar na lista `formatos` do tema, senão o script recusa o po
 - **Não cite preços** (mudam o tempo todo). Se o preço for a própria notícia, diga a data e a loja.
 - **Nunca invente.** Nada de livro, autor, enredo, personagem, citação, nota ou resenha que você não encontrou. Cuidado com títulos parecidos e com edições diferentes do mesmo livro. Se não achou, não escreva. Declare incerteza quando existir.
 - Datas absolutas ("26 de outubro"), nunca "ontem" ou "semana passada".
-- Texto puro nos campos. Sem HTML. Formatação inline permitida: `**negrito**`, `` `código` `` e `[texto](https://url)`.
+- Texto puro nos campos. Sem HTML. Formatação inline permitida só no `corpo`: `**negrito**`, `*itálico*` (use para títulos de livros), `` `código` `` e `[texto](https://url)`. `titulo` e `resumo` são texto puro, sem asteriscos (o script recusa).
 
 ## Formato do arquivo de post
 

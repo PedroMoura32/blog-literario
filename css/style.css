@@ -432,6 +432,7 @@ main { padding: 22px 0 64px; }
 .corpo ul, .corpo ol { margin: 0 0 1.2em; padding-left: 1.3em; }
 .corpo li { margin-bottom: 0.55em; }
 .corpo a { text-underline-offset: 3px; }
+.corpo em { font-family: var(--display); font-style: italic; font-size: 1.03em; }
 .corpo code {
   padding: 0.1em 0.35em; border-radius: 3px;
   background: color-mix(in srgb, var(--ink) 9%, transparent);

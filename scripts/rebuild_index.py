@@ -124,7 +124,8 @@ def validar_estante(estante, erros):
 
 def limpar_marcacao(txt):
     txt = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", txt)
-    return txt.replace("**", "").replace("`", "").strip()
+    txt = txt.replace("**", "").replace("`", "")
+    return re.sub(r"\*([^*\s][^*]*)\*", r"\1", txt).strip()
 
 
 def pontos_do_post(corpo):
@@ -226,6 +227,9 @@ def validar_post(p, caminho, tema, hoje, lidos, erros):
         tags = []
 
     # Regras de conteúdo que dá para checar por máquina.
+    for campo_puro in ("titulo", "resumo"):
+        if isinstance(p.get(campo_puro), str) and "*" in p[campo_puro]:
+            erros.append(f"{r}: '{campo_puro}' deve ser texto puro, sem asteriscos")
     for txt in textos_do_post(p, corpo):
         if "![" in txt:
             erros.append(f"{r}: imagens não são permitidas (nada de capas copiadas)")

@@ -240,12 +240,13 @@ function urlSegura(u) {
 
 function inline(txt) {
   const saida = [];
-  const re = /(\*\*[^*]+\*\*|`[^`]+`|\[[^\]]+\]\(https?:\/\/[^)\s]+\))/g;
+  const re = /(\*\*[^*]+\*\*|\*[^*\s][^*]*\*|`[^`]+`|\[[^\]]+\]\(https?:\/\/[^)\s]+\))/g;
   let i = 0, m;
   while ((m = re.exec(txt))) {
     if (m.index > i) saida.push(txt.slice(i, m.index));
     const t = m[0];
     if (t.startsWith("**")) saida.push(h("strong", {}, t.slice(2, -2)));
+    else if (t.startsWith("*")) saida.push(h("em", {}, t.slice(1, -1)));
     else if (t.startsWith("`")) saida.push(h("code", {}, t.slice(1, -1)));
     else {
       const [, rotulo, url] = t.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
