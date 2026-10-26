@@ -2,17 +2,17 @@
   "titulo": "Estante",
   "descricao": "Os livros que já foram lidos. É daqui que o blog parte para sugerir novas leituras.",
   "livros": [
-    { "id": "a-revolucao-dos-bichos", "titulo": "A revolução dos bichos", "autor": "George Orwell", "nota": null, "comentario": null },
-    { "id": "cartografia-para-caminhos-incertos", "titulo": "Cartografia para caminhos incertos", "autor": "Ian Fraser", "nota": null, "comentario": null },
-    { "id": "o-menino-que-descobriu-o-vento", "titulo": "O menino que descobriu o vento", "autor": "William Kamkwamba e Bryan Mealer", "nota": null, "comentario": null },
-    { "id": "a-morte-de-ivan-ilyich", "titulo": "A morte de Ivan Ilyich", "autor": "Liev Tolstói", "nota": null, "comentario": null },
-    { "id": "harry-potter", "titulo": "Harry Potter", "autor": "J. K. Rowling", "nota": null, "comentario": null },
-    { "id": "a-garota-no-trem", "titulo": "A garota no trem", "autor": "Paula Hawkins", "nota": null, "comentario": null },
-    { "id": "agua-fresca-para-flores", "titulo": "Água fresca para flores", "autor": "Valérie Perrin", "nota": null, "comentario": null },
-    { "id": "a-cabeca-do-santo", "titulo": "A cabeça do santo", "autor": "Socorro Acioli", "nota": null, "comentario": null },
-    { "id": "essencialismo", "titulo": "Essencialismo", "autor": "Greg McKeown", "nota": null, "comentario": null },
-    { "id": "o-pequeno-principe", "titulo": "O pequeno príncipe", "autor": "Antoine de Saint-Exupéry", "nota": null, "comentario": null },
-    { "id": "tudo-e-rio", "titulo": "Tudo é rio", "autor": "Carla Madeira", "nota": null, "comentario": null },
-    { "id": "a-inconveniente-loja-de-conveniencia", "titulo": "A inconveniente loja de conveniência", "autor": "Kim Ho-yeon", "nota": null, "comentario": null }
+    {"id": "a-revolucao-dos-bichos", "titulo": "A revolução dos bichos", "autor": "George Orwell", "nota": 9, "comentario": null},
+    {"id": "cartografia-para-caminhos-incertos", "titulo": "Cartografia para caminhos incertos", "autor": "Ian Fraser", "nota": 9, "comentario": null},
+    {"id": "o-menino-que-descobriu-o-vento", "titulo": "O menino que descobriu o vento", "autor": "William Kamkwamba e Bryan Mealer", "nota": 7, "comentario": null},
+    {"id": "a-morte-de-ivan-ilyich", "titulo": "A morte de Ivan Ilyich", "autor": "Liev Tolstói", "nota": 5, "comentario": null},
+    {"id": "harry-potter", "titulo": "Harry Potter", "autor": "J. K. Rowling", "nota": 9, "comentario": null},
+    {"id": "a-garota-no-trem", "titulo": "A garota no trem", "autor": "Paula Hawkins", "nota": 8, "comentario": null},
+    {"id": "agua-fresca-para-flores", "titulo": "Água fresca para flores", "autor": "Valérie Perrin", "nota": 8, "comentario": null},
+    {"id": "a-cabeca-do-santo", "titulo": "A cabeça do santo", "autor": "Socorro Acioli", "nota": 7, "comentario": null},
+    {"id": "essencialismo", "titulo": "Essencialismo", "autor": "Greg McKeown", "nota": 9, "comentario": null},
+    {"id": "o-pequeno-principe", "titulo": "O pequeno príncipe", "autor": "Antoine de Saint-Exupéry", "nota": 8, "comentario": null},
+    {"id": "tudo-e-rio", "titulo": "Tudo é rio", "autor": "Carla Madeira", "nota": 8, "comentario": null},
+    {"id": "a-inconveniente-loja-de-conveniencia", "titulo": "A inconveniente loja de conveniência", "autor": "Kim Ho-yeon", "nota": 7, "comentario": null}
   ]
 }

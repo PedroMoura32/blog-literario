@@ -112,8 +112,8 @@ def validar_estante(estante, erros):
             if not isinstance(lv.get(campo), str) or not lv[campo].strip():
                 erros.append(f"{rr}: '{campo}' obrigatório")
         nota = lv.get("nota")
-        if nota is not None and (not isinstance(nota, int) or isinstance(nota, bool) or not 1 <= nota <= 5):
-            erros.append(f"{rr}: 'nota' deve ser inteiro de 1 a 5, ou null")
+        if nota is not None and (not isinstance(nota, int) or isinstance(nota, bool) or not 1 <= nota <= 10):
+            erros.append(f"{rr}: 'nota' deve ser inteiro de 1 a 10, ou null")
         com = lv.get("comentario")
         if com is not None and (not isinstance(com, str) or len(com) > 280):
             erros.append(f"{rr}: 'comentario' deve ser texto de até 280 caracteres, ou null")

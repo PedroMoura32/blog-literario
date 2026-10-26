@@ -2,7 +2,7 @@
 
 Ideias para depois. Nada aqui é compromisso.
 
-- Notas e comentários na Estante (hoje todos os livros estão sem nota; as indicações melhoram quando houver notas).
+- Comentários curtos na Estante (as notas já estão; um comentário ajuda as indicações a acertar o gosto).
 - Seção "Quero ler" na Estante, para guardar as indicações que ela gostou.
 - Metas de leitura do ano (quantos livros, quais gêneros).
 - Resumo da semana: um post de domingo com o que saiu nos últimos 7 dias.

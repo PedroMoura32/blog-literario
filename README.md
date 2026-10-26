@@ -8,7 +8,7 @@ Caderno de livros, autores e boas leituras. Site estático (HTML, CSS e JS puros
 index.html        capa (manchete, cartões "Em 1 minuto" que deslizam, seções por tema, busca)
 tema.html         página de uma seção (?t=slug), com filtro por formato e arquivadas
 post.html         página de uma matéria (?t=slug&id=...)
-estante.html      a Estante: os livros já lidos, com nota e comentário quando houver
+estante.html      a Estante: os livros já lidos, com nota (de 1 a 10) e comentário quando houver
 css/style.css     todo o visual (vinho e creme; modo escuro; celular com barra fixa embaixo)
 js/               app.js (utilidades e capas geradas em SVG), capa.js, tema.js, post.js, estante.js
 fonts/            Fraunces e Source Serif 4 (licença OFL)
@@ -50,7 +50,7 @@ O GitHub Pages grátis exige repositório público. As páginas têm `noindex` p
 
 ## A Estante
 
-Os livros ficam em `data/estante.json`. Cada livro tem `id`, `titulo`, `autor`, `nota` (1 a 5 ou `null`) e `comentario` (até 280 caracteres ou `null`). Para acrescentar um livro ou uma nota, é só pedir na conversa. O script `rebuild_index.py` confere o arquivo e **recusa publicar uma indicação de livro que já está na Estante**.
+Os livros ficam em `data/estante.json`. Cada livro tem `id`, `titulo`, `autor`, `nota` (1 a 10 ou `null`) e `comentario` (até 280 caracteres ou `null`). Para acrescentar um livro ou uma nota, é só pedir na conversa. O script `rebuild_index.py` confere o arquivo e **recusa publicar uma indicação de livro que já está na Estante**.
 
 ## Capas geradas
 

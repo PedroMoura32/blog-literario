@@ -40,10 +40,10 @@ Informar o que aconteceu, com precisão e data. Tom direto. Exija **novidade rea
 
 Aqui o objetivo é sugerir uma boa leitura todo dia. A falta de notícia **não** é motivo para ficar sem post.
 
-- **Parta da Estante.** Leia `data/estante.json`. A Estante lista livros **lidos**, não necessariamente gostados: sem `nota`, não diga que ela "gostou"; escreva "para quem leu" ou "se você leu". Pesquise livros parecidos (use as `consultas`, trocando `{título da Estante}` e `{autor da Estante}`).
+- **Parta da Estante.** Leia `data/estante.json`. A Estante lista livros **lidos**, não necessariamente gostados: livros sem `nota` não permitem dizer que ela "gostou"; escreva "para quem leu" ou "se você leu". Pesquise livros parecidos (use as `consultas`, trocando `{título da Estante}` e `{autor da Estante}`).
 - **Nunca indique um livro que já está na Estante** (o script recusa) nem um já indicado antes (compare `livro.titulo` em `data/index.json` e os arquivos de `data/posts/indicacoes/`).
 - **Varie:** alterne "perto do gosto" (parecido com algo da Estante) e "um passo além" (gênero, época ou país novo). Alterne brasileiros e traduzidos, clássicos e contemporâneos, ficção e não ficção, livros curtos e longos.
-- **Notas na Estante:** quando um livro tiver `nota`, nota alta pesa a favor de livros parecidos; nota baixa, evite parecidos. Se houver `comentario`, leve em conta.
+- **Notas na Estante (de 1 a 10):** nota 8 a 10 pesa a favor de livros parecidos; nota 5 ou menos, evite parecidos (em tema, estilo ou autor). Com nota, pode dizer que o livro foi bem avaliado ("um dos seus livros mais bem avaliados"), mas nunca cite o número exato nem o comentário nas matérias. Se houver `comentario`, leve em conta.
 - **Ponto de partida do gosto** (hipótese para refinar com o Pedro, não um perfil fechado): a Estante mistura clássicos curtos, romances brasileiros contemporâneos, ficção reconfortante, suspense, não ficção e livros de formação.
 - Formato `indicacao`, 180 a 320 palavras, campo `livro` obrigatório. Estrutura:
   1. Parágrafo "por que combina": ligue a sugestão a 1 a 3 livros da Estante, citando-os pelo título.
@@ -117,7 +117,7 @@ O formato precisa estar na lista `formatos` do tema, senão o script recusa o po
 
 ## A Estante (`data/estante.json`)
 
-Lista dos livros já lidos, com `id`, `titulo`, `autor`, `nota` (1 a 5, ou `null`) e `comentario` (até 280 caracteres, ou `null`). Só leitura para você: quem atualiza é o Pedro, na conversa. Use a Estante para entender o gosto e para não repetir livro.
+Lista dos livros já lidos, com `id`, `titulo`, `autor`, `nota` (de 1 a 10, a escala que ela mesma usa, ou `null`) e `comentario` (até 280 caracteres, ou `null`). Só leitura para você: quem atualiza é o Pedro, na conversa. Use a Estante para entender o gosto e para não repetir livro.
 
 ## Validade das matérias
 

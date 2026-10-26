@@ -6,9 +6,11 @@
     montarTopo(site, temas, "estante");
     montarRodape(site);
 
-    const livros = Array.isArray(estante.livros) ? estante.livros : [];
+    const original = Array.isArray(estante.livros) ? estante.livros : [];
+    // Da maior para a menor nota; sem nota vai para o fim. A ordenação é estável, então empates seguem a ordem do arquivo.
+    const livros = [...original].sort((a, b) => (b.nota ?? -1) - (a.nota ?? -1));
+    const comNotas = livros.some((lv) => Number.isInteger(lv.nota));
     const paleta = [...temas.filter((t) => t.ativo).map((t) => t.cor), COR_ESTANTE];
-    const estrelas = (n) => "★".repeat(n) + "☆".repeat(5 - n);
 
     const capa = h("header", { class: "tema-capa", style: estiloTema({ cor: COR_ESTANTE }) },
       arte("tema-estante"),
@@ -16,17 +18,17 @@
       h("h1", {}, estante.titulo),
       h("p", { class: "tema-desc" }, estante.descricao),
       h("p", { class: "tema-fatos" },
-        `${livros.length} ${livros.length === 1 ? "livro" : "livros"} na estante. As indicações do blog partem desta lista e nunca repetem um livro que já está aqui.`));
+        `${livros.length} ${livros.length === 1 ? "livro" : "livros"} na estante${comNotas ? ", do mais bem avaliado para o menos" : ""}. As indicações do blog partem desta lista e nunca repetem um livro que já está aqui.`));
 
-    const cartao = (lv, i) => {
-      const cor = paleta[(aleatorioIndice(lv.id) + i) % paleta.length];
+    const cartao = (lv) => {
+      const cor = paleta[(aleatorioIndice(lv.id) + original.indexOf(lv)) % paleta.length];
       return h("li", { class: "livro", style: estiloTema({ cor }) },
         h("div", { class: "livro-capa" },
           arte(lv.id),
           h("strong", { class: "livro-titulo" }, lv.titulo),
           h("span", { class: "livro-autor" }, lv.autor)),
         Number.isInteger(lv.nota)
-          ? h("p", { class: "livro-nota", "aria-label": `Nota ${lv.nota} de 5` }, h("span", { "aria-hidden": "true" }, estrelas(lv.nota)))
+          ? h("p", { class: "livro-nota", "aria-label": `Nota ${lv.nota} de 10` }, h("span", { "aria-hidden": "true" }, `★ ${lv.nota}/10`))
           : null,
         lv.comentario ? h("p", { class: "livro-comentario" }, lv.comentario) : null);
     };
