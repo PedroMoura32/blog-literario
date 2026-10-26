@@ -1,0 +1,21 @@
+{
+  "titulo": "Querida tia, de Valérie Perrin: um mistério de família com ternura",
+  "resumo": "Para quem gostou de Água fresca para flores, um romance da mesma autora em que uma sobrinha investiga a morte de uma tia que já tinha sido enterrada. Mistério, memória e afeto.",
+  "formato": "indicacao",
+  "data": "2026-10-26",
+  "destaque": false,
+  "tags": ["romance", "traduzido", "franca", "misterio", "valerie-perrin"],
+  "livro": { "titulo": "Querida tia", "autor": "Valérie Perrin" },
+  "corpo": [
+    { "tipo": "p", "texto": "Se **Água fresca para flores** ficou com você pelo cuidado com pessoas comuns e suas histórias escondidas, vale conhecer outro romance de Valérie Perrin. A autora volta a um território que ela conhece bem: cidades pequenas da França, segredos de família e uma investigação que também é uma forma de acolher quem já se foi." },
+    { "tipo": "p", "texto": "Em **Querida tia**, Agnès recebe a ligação da polícia avisando que a tia Colette morreu. O estranho é que, para a família, Colette já havia sido enterrada três anos antes. Agnès volta a uma pequena cidade da Borgonha para reconhecer o corpo e acaba mergulhando no passado da família, com a ajuda de velhos amigos, testemunhas inesperadas e uma mala de fitas cassete. A edição brasileira é da Intrínseca, de 2025, com tradução de Sofia Soter, segundo a Estante do Skoob e a matéria do Diário do Nordeste." },
+    { "tipo": "h2", "texto": "Antes de começar" },
+    { "tipo": "p", "texto": "É um livro longo: cerca de 496 páginas, segundo o Skoob e a livraria Martins Fontes. O ritmo é de mistério que se revela aos poucos, com humor e ternura entre as revelações. Há temas pesados: segundo o Diário do Nordeste, a história traz violência doméstica e traumas que atravessam gerações. Vale ler com calma." },
+    { "tipo": "callout", "titulo": "Combina se…", "texto": "você gosta de romances que misturam enigma, memória e afeto, e não se importa de passar algumas noites com um livro grande." }
+  ],
+  "fontes": [
+    { "titulo": "Skoob: Querida tia", "url": "https://www.skoob.com.br/book/122565439" },
+    { "titulo": "Martins Fontes Paulista: Querida tia", "url": "https://www.martinsfontespaulista.com.br/querida-tia-1137505/p" },
+    { "titulo": "Diário do Nordeste: Valérie Perrin, autora do sucesso 'Três', lança novo romance sobre dramas familiares", "url": "https://diariodonordeste.verdesmares.com.br/verso/valerie-perrin-autora-do-sucesso-tres-lanca-novo-romance-sobre-dramas-familiares-1.3661896" }
+  ]
+}

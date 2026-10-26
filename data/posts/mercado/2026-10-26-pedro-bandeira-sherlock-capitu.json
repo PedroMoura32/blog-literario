@@ -1,0 +1,22 @@
+{
+  "titulo": "Pedro Bandeira estreia na ficção adulta e coloca Sherlock Holmes para investigar Capitu",
+  "resumo": "Autor de mais de cem livros, conhecido pelo público juvenil, lança pela Rocco seu primeiro romance para adultos. Nele, o detetive de Conan Doyle revisita a dúvida mais famosa de Dom Casmurro.",
+  "formato": "reportagem",
+  "data": "2026-10-26",
+  "destaque": true,
+  "tags": ["lancamento", "ficcao-brasileira", "machado-de-assis", "pedro-bandeira"],
+  "livro": { "titulo": "Sherlock Holmes investiga: a traição de Capitu", "autor": "Pedro Bandeira" },
+  "corpo": [
+    { "tipo": "p", "texto": "Quem cresceu lendo Pedro Bandeira em edições escolares vai encontrá-lo agora em outro território. Em entrevista publicada pelo PublishNews em 23 de outubro, o escritor apresentou seu primeiro romance para adultos, que junta dois mundos aparentemente distantes: o do detetive Sherlock Holmes, criado por Arthur Conan Doyle, e o de Capitu, personagem de Machado de Assis." },
+    { "tipo": "p", "texto": "A premissa é a pergunta que atravessa gerações de leitores de *Dom Casmurro*: Capitu traiu ou não traiu Bentinho? No livro de Bandeira, quem tenta responder é Holmes. Segundo o PublishNews, o detetive não se contenta com a versão do marido, que tem certeza da traição, e confronta o que cada personagem diz. Também olha com desconfiança para quem acusa, ou seja, para o próprio narrador." },
+    { "tipo": "p", "texto": "Há ainda um jogo de moldura. O texto é apresentado como um relato escrito por John Watson, o fiel companheiro de Holmes, encontrado depois num baú. O autor diz tratar o recurso com humor e não assume a história como sua. Na conversa, ele afirmou que ainda não tinha lido o texto inteiro, então não adiantou como a investigação termina." },
+    { "tipo": "h2", "texto": "O que se sabe sobre a edição" },
+    { "tipo": "p", "texto": "A editora é a Rocco, segundo o PublishNews e também o Jornal do Comércio, que comentou o livro em 15 de outubro. O jornal gaúcho fala em 304 páginas, dado que não encontrei em outra fonte. As duas matérias não informam a data exata de chegada às livrarias." },
+    { "tipo": "p", "texto": "Há uma pequena divergência de título: o PublishNews usa *Sherlock Holmes e Capitu*, enquanto o Jornal do Comércio usa *Sherlock Holmes investiga: a traição de Capitu*. Neste texto, adotamos o segundo, mas vale conferir a capa quando o livro chegar. O jornal gaúcho também traz uma legenda que menciona outra editora, o que reforça a necessidade de checar a ficha final da edição." },
+    { "tipo": "p", "texto": "O lançamento chega numa fase em que clássicos brasileiros seguem sendo relidos e reinventados por autores de hoje. Para quem já leu Machado, a graça deve estar em ver a velha dúvida ganhar um investigador de fora. Para quem só conhece Bandeira da juventude, é uma chance de reencontrá-lo em tom diferente." }
+  ],
+  "fontes": [
+    { "titulo": "PublishNews: Pedro Bandeira estreia na ficção adulta com encontro entre Sherlock Holmes e Capitu (23 de outubro de 2026)", "url": "https://www.publishnews.com.br/materias/2026/10/23/pedro-bandeira-estreia-na-ficcao-adulta-com-encontro-entre-sherlock-holmes-e-capitu/" },
+    { "titulo": "Jornal do Comércio: Sherlock Holmes investiga a traição de Capitu (15 de outubro de 2026)", "url": "https://www.jornaldocomercio.com/colunas/livros/2026/10/1266813-sherlock-holmes-investiga-a-traicao-de-capitu.html" }
+  ]
+}

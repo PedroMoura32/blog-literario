@@ -1,1 +1,45 @@
-[]
+[
+  {
+    "id": "2026-10-26-querida-tia-valerie-perrin",
+    "tema": "indicacoes",
+    "titulo": "Querida tia, de Valérie Perrin: um mistério de família com ternura",
+    "resumo": "Para quem gostou de Água fresca para flores, um romance da mesma autora em que uma sobrinha investiga a morte de uma tia que já tinha sido enterrada. Mistério, memória e afeto.",
+    "formato": "indicacao",
+    "data": "2026-10-26",
+    "tempo_leitura_min": 1,
+    "destaque": false,
+    "exemplo": false,
+    "tags": [
+      "romance",
+      "traduzido",
+      "franca",
+      "misterio",
+      "valerie-perrin"
+    ],
+    "livro": {
+      "titulo": "Querida tia",
+      "autor": "Valérie Perrin"
+    }
+  },
+  {
+    "id": "2026-10-26-pedro-bandeira-sherlock-capitu",
+    "tema": "mercado",
+    "titulo": "Pedro Bandeira estreia na ficção adulta e coloca Sherlock Holmes para investigar Capitu",
+    "resumo": "Autor de mais de cem livros, conhecido pelo público juvenil, lança pela Rocco seu primeiro romance para adultos. Nele, o detetive de Conan Doyle revisita a dúvida mais famosa de Dom Casmurro.",
+    "formato": "reportagem",
+    "data": "2026-10-26",
+    "tempo_leitura_min": 2,
+    "destaque": true,
+    "exemplo": false,
+    "tags": [
+      "lancamento",
+      "ficcao-brasileira",
+      "machado-de-assis",
+      "pedro-bandeira"
+    ],
+    "livro": {
+      "titulo": "Sherlock Holmes investiga: a traição de Capitu",
+      "autor": "Pedro Bandeira"
+    }
+  }
+]
