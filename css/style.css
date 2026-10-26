@@ -1,0 +1,466 @@
+/* Entrelinhas: caderno de leituras.
+   Papel creme, tinta vinho-escuro, um bloco de cor sólida por seção (cor vem de data/temas.json)
+   e uma capa gerada em SVG para cada matéria. */
+
+/* Fontes hospedadas no próprio projeto (licença OFL em fonts/). */
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal; font-weight: 100 900; font-display: swap;
+  src: url("../fonts/fraunces.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Fraunces";
+  font-style: italic; font-weight: 100 900; font-display: swap;
+  src: url("../fonts/fraunces-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: normal; font-weight: 200 900; font-display: swap;
+  src: url("../fonts/source-serif-4.woff2") format("woff2");
+}
+
+:root {
+  --paper: #f6eee0;
+  --ink: #2b1118;
+  --soft: #4a2d34;
+  --muted: #6b4f54;
+  --hair: #dccbb2;
+  --tema: #7b1e3a;
+  --tema-ink: #ffffff;
+  --display: "Fraunces", Georgia, "Times New Roman", serif;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --ui: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --gutter: 16px;
+  --max: 1180px;
+  --raio: 18px;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #1b1013;
+    --ink: #f4eadb;
+    --soft: #d6c6b4;
+    --muted: #b3a191;
+    --hair: #3b272c;
+  }
+}
+
+/* Transição suave entre páginas (navegadores que suportam). */
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition { navigation: auto; }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.0625rem;
+  line-height: 1.55;
+}
+
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+
+.wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+
+/* ---------- Cabeçalho ---------- */
+
+.topo { padding-top: 12px; }
+
+.topo-linha {
+  display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 16px;
+  font-family: var(--ui); font-size: 0.8125rem; font-weight: 500; color: var(--muted);
+}
+
+.marca-linha {
+  display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between;
+  gap: 4px 24px; padding: 8px 0 16px;
+}
+
+.marca {
+  font-family: var(--display); font-style: italic; font-weight: 600;
+  font-size: clamp(3rem, 14.5vw, 8.5rem);
+  line-height: 0.95; letter-spacing: -0.03em;
+  text-decoration: none;
+}
+
+.marca-sub {
+  margin: 0 0 0.4rem; max-width: 28ch;
+  font-family: var(--display); font-style: italic; font-size: 1.05rem; font-weight: 400; line-height: 1.3;
+}
+
+.nav {
+  display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none;
+  border-top: 4px double var(--ink); border-bottom: 1px solid var(--ink);
+  font-family: var(--ui);
+}
+.nav::-webkit-scrollbar { display: none; }
+
+.nav a {
+  display: flex; align-items: center; gap: 8px; white-space: nowrap;
+  padding: 12px 14px; font-size: 0.95rem; font-weight: 600; text-decoration: none;
+}
+.nav a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.nav a[aria-current="page"] { background: var(--ink); color: var(--paper); }
+
+.quadrado { display: inline-block; flex: none; width: 10px; height: 10px; border-radius: 2px; background: var(--tema); }
+.capa-quadrado { background: currentColor; }
+
+main { padding: 22px 0 64px; }
+
+/* Barra de navegação fixa no rodapé, no celular */
+@media (max-width: 719px) {
+  .nav {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 30;
+    justify-content: space-around; gap: 0;
+    padding-bottom: env(safe-area-inset-bottom);
+    background: var(--paper); border-top: 3px double var(--ink); border-bottom: 0;
+  }
+  .nav a {
+    flex: 1 1 auto; flex-direction: column; justify-content: center; gap: 5px;
+    min-height: 56px; padding: 8px 5px; font-size: 0.72rem; line-height: 1.15;
+    text-align: center; white-space: normal;
+  }
+  .nav .quadrado { width: 12px; height: 12px; }
+  main { padding-bottom: 96px; }
+  .rodape { padding-bottom: 96px; }
+  .marca-sub { display: none; }
+}
+
+/* ---------- Peças comuns ---------- */
+
+.arte { display: block; width: 100%; height: 100%; }
+
+.meta {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px;
+  color: var(--muted); font-family: var(--ui); font-size: 0.8125rem; font-weight: 600;
+}
+
+.selo {
+  padding: 1px 10px; border: 1.5px solid currentColor; border-radius: 99px;
+  font-size: 0.75rem; font-weight: 600; line-height: 1.5;
+}
+
+.tema-tag {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-family: var(--ui); font-size: 0.8125rem; font-weight: 700;
+}
+
+.livro-linha {
+  display: block; font-family: var(--display); font-size: 0.98rem; font-weight: 400; line-height: 1.3;
+}
+
+.rotulo { margin: 0; font-family: var(--display); font-size: 1.4rem; font-weight: 600; letter-spacing: -0.01em; }
+
+.miniatura {
+  display: block; flex: none; width: 76px; height: 76px; overflow: hidden;
+  border-radius: 12px; background: var(--tema);
+}
+
+/* ---------- Busca ---------- */
+
+.busca-wrap { margin: 0 0 24px; }
+
+.busca {
+  width: 100%; padding: 10px 0; border: 0; border-bottom: 1.5px solid var(--ink); border-radius: 0;
+  background: transparent; color: var(--ink);
+  font: italic 500 1.2rem var(--display);
+}
+.busca::placeholder { color: var(--muted); font-weight: 400; }
+.busca:focus { outline: none; border-bottom-width: 4px; padding-bottom: 7px; }
+
+/* ---------- Capa: manchete + "Em 1 minuto" ---------- */
+
+.bento { display: grid; gap: 28px; margin-bottom: 56px; }
+
+@media (min-width: 960px) {
+  .bento { grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 24px; }
+  .bento .manchete { grid-column: span 7; }
+  .bento .historias { grid-column: span 5; }
+}
+
+.manchete {
+  position: relative; isolation: isolate; overflow: hidden;
+  display: flex; flex-direction: column; justify-content: flex-end; gap: 14px;
+  min-height: 440px; padding: 120px clamp(20px, 3.5vw, 36px) clamp(20px, 3.5vw, 36px);
+  background: var(--tema); color: var(--tema-ink); border-radius: var(--raio); text-decoration: none;
+}
+@media (min-width: 960px) { .manchete { min-height: 580px; padding-top: 210px; } }
+
+.manchete .arte { position: absolute; z-index: -1; top: 0; right: 0; width: min(50%, 300px); height: auto; aspect-ratio: 4 / 3; transform-origin: top right; }
+
+/* O desenho esmaece para baixo, para nunca competir com o texto. */
+.manchete .arte, .bloco .arte, .tema-capa .arte, .artigo-hero .arte, .historia .arte, .livro-capa .arte {
+  -webkit-mask-image: linear-gradient(to bottom, #000 28%, transparent 88%);
+  mask-image: linear-gradient(to bottom, #000 28%, transparent 88%);
+}
+
+.manchete-topo { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; font-family: var(--ui); font-size: 0.875rem; font-weight: 700; }
+
+.manchete-titulo {
+  margin: 0; font-family: var(--display); font-weight: 600;
+  font-size: clamp(2rem, 4.8vw, 3.5rem); line-height: 1.04; letter-spacing: -0.02em; text-wrap: balance;
+}
+.manchete:hover .manchete-titulo { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 6px; }
+.manchete-resumo { margin: 14px 0 12px; max-width: 54ch; font-size: 1.18rem; line-height: 1.45; }
+.manchete .livro-linha { margin: 0 0 12px; }
+.manchete .meta, .bloco .meta, .historia .meta, .artigo-hero .meta, .tema-capa .meta { color: inherit; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .manchete .arte, .bloco .arte, .historia .arte { transition: transform 0.5s cubic-bezier(0.2, 0.7, 0.2, 1); }
+  .manchete:hover .arte, .bloco:hover .arte, .historia:hover .arte { transform: scale(1.05) rotate(2deg); }
+}
+
+/* Em 1 minuto: cartões que deslizam */
+
+.historias { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.historias-topo { display: flex; align-items: center; justify-content: space-between; gap: 14px; }
+.progresso { display: flex; flex: 1; gap: 4px; max-width: 220px; margin-left: auto; }
+.progresso i { flex: 1; height: 4px; border-radius: 2px; background: var(--hair); }
+.progresso i.on { background: var(--ink); }
+
+.setas { display: none; gap: 6px; }
+.seta {
+  display: grid; place-items: center; width: 40px; height: 40px; padding: 0;
+  border: 1.5px solid var(--ink); border-radius: 50%; background: transparent; color: var(--ink); cursor: pointer;
+}
+.seta:hover { background: var(--ink); color: var(--paper); }
+.seta svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+@media (hover: hover) and (min-width: 720px) { .setas { display: flex; } }
+
+.trilho {
+  display: flex; flex: 1; gap: 12px; overflow-x: auto; scrollbar-width: none;
+  scroll-snap-type: x mandatory; overscroll-behavior-x: contain;
+  margin-inline: calc(var(--gutter) * -1); padding-inline: var(--gutter); scroll-padding-inline: var(--gutter);
+}
+.trilho::-webkit-scrollbar { display: none; }
+
+.historia {
+  position: relative; isolation: isolate; overflow: hidden; scroll-snap-align: start;
+  display: flex; flex: 0 0 82%; flex-direction: column; justify-content: space-between; gap: 18px;
+  min-height: 380px; padding: 18px;
+  background: var(--tema); color: var(--tema-ink); border-radius: var(--raio); text-decoration: none;
+}
+.historia .arte { position: absolute; z-index: -1; top: -6%; right: -12%; width: 78%; height: 40%; }
+.historia-topo { font-family: var(--ui); font-size: 0.875rem; font-weight: 700; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.historia h3 { margin: 0 0 12px; font-family: var(--display); font-size: 1.5rem; font-weight: 600; line-height: 1.1; letter-spacing: -0.015em; text-wrap: balance; }
+.historia ul { margin: 0 0 12px; padding-left: 1.1em; font-size: 0.98rem; line-height: 1.38; }
+.historia li { margin-bottom: 5px; }
+.historia-resumo { margin: 0 0 12px; font-size: 1rem; line-height: 1.4; }
+.historia:hover h3 { text-decoration: underline; text-underline-offset: 4px; }
+
+@media (min-width: 720px) {
+  .trilho { margin-inline: 0; padding-inline: 0; scroll-padding-inline: 0; }
+  .historia { flex-basis: 46%; }
+}
+@media (min-width: 960px) { .historia { flex-basis: 80%; } }
+
+/* ---------- Seções por tema ---------- */
+
+.secao { margin-bottom: 60px; }
+
+.secao-topo {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  margin-bottom: 18px; padding-top: 14px; border-top: 4px double var(--ink);
+}
+
+.etiqueta {
+  display: inline-block; margin: 0; padding: 4px 14px 6px; border-radius: 99px;
+  background: var(--tema); color: var(--tema-ink);
+  font-family: var(--display); font-weight: 600; font-size: clamp(1.25rem, 3.2vw, 1.8rem);
+  line-height: 1.15; letter-spacing: -0.01em;
+}
+
+.ver-tudo { font-family: var(--ui); font-size: 0.95rem; font-weight: 600; white-space: nowrap; }
+
+.secao-corpo { display: grid; gap: 14px; }
+@media (min-width: 960px) {
+  .secao-corpo { grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 24px; align-items: stretch; }
+  .secao-corpo .bloco { grid-column: span 7; }
+  .secao-corpo .lista-lateral { grid-column: span 5; }
+  .secao-corpo .bloco:only-child { grid-column: 1 / -1; }
+}
+
+.bloco {
+  position: relative; isolation: isolate; overflow: hidden;
+  display: flex; flex-direction: column; justify-content: flex-end; gap: 10px;
+  min-height: 340px; padding: 120px 22px 22px;
+  background: var(--tema); color: var(--tema-ink); border-radius: var(--raio); text-decoration: none;
+}
+@media (min-width: 720px) { .bloco { padding-top: 190px; } }
+.bloco .arte { position: absolute; z-index: -1; top: 0; right: 0; width: min(50%, 300px); height: auto; aspect-ratio: 4 / 3; transform-origin: top right; }
+.bloco h3 {
+  margin: 0; font-family: var(--display); font-weight: 600;
+  font-size: clamp(1.6rem, 3.6vw, 2.35rem); line-height: 1.08; letter-spacing: -0.015em; text-wrap: balance;
+}
+.bloco p { margin: 0; max-width: 52ch; line-height: 1.4; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+.bloco:hover h3 { text-decoration: underline; text-underline-offset: 5px; }
+
+.lista-lateral { display: flex; flex-direction: column; }
+
+.item {
+  display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 14px; align-items: start;
+  padding: 14px 0; border-bottom: 1px solid var(--hair); text-decoration: none;
+}
+.lista-lateral .item:first-child { padding-top: 0; }
+.lista-lateral .item:last-child { border-bottom: 0; }
+.item-corpo { display: flex; flex-direction: column; gap: 6px; }
+.item-titulo { font-family: var(--display); font-size: 1.2rem; font-weight: 600; line-height: 1.18; letter-spacing: -0.01em; text-wrap: balance; }
+.item:hover .item-titulo { text-decoration: underline; text-underline-offset: 3px; }
+
+/* ---------- Lista (página de tema, busca, relacionadas) ---------- */
+
+.lista { border-top: 4px double var(--ink); }
+
+.linha {
+  display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 16px; align-items: start;
+  padding: 20px 0; border-bottom: 1px solid var(--hair); text-decoration: none;
+}
+.linha .miniatura { width: 76px; height: 76px; }
+.linha-corpo { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
+.linha-titulo {
+  font-family: var(--display); font-weight: 600; font-size: clamp(1.25rem, 2.6vw, 1.6rem);
+  line-height: 1.17; letter-spacing: -0.01em; text-wrap: balance;
+}
+.linha:hover .linha-titulo { text-decoration: underline; text-underline-offset: 4px; }
+.linha-resumo { color: var(--soft); }
+.linha.arquivada { opacity: 0.62; }
+
+@media (min-width: 720px) {
+  .linha { grid-template-columns: 132px minmax(0, 1fr); gap: 24px; }
+  .linha .miniatura { width: 132px; height: 100px; }
+}
+
+.contagem { margin: 0 0 12px; font-family: var(--ui); font-weight: 600; }
+
+/* ---------- Página de tema ---------- */
+
+.tema-capa {
+  position: relative; isolation: isolate; overflow: hidden;
+  margin-bottom: 28px; padding: 150px clamp(22px, 5vw, 56px) clamp(22px, 5vw, 56px); min-height: 360px;
+  display: flex; flex-direction: column; justify-content: flex-end;
+  background: var(--tema); color: var(--tema-ink); border-radius: var(--raio);
+}
+.tema-capa .arte { position: absolute; z-index: -1; top: 0; right: 0; width: min(50%, 360px); height: auto; aspect-ratio: 4 / 3; }
+.tema-estilo { margin: 0; font-family: var(--ui); font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; font-size: 0.85rem; }
+.tema-capa h1 {
+  margin: 6px 0 14px; font-family: var(--display); font-style: italic; font-weight: 600;
+  font-size: clamp(2.6rem, 10vw, 5.8rem); line-height: 0.98; letter-spacing: -0.03em; text-wrap: balance;
+}
+.tema-desc { margin: 0 0 18px; max-width: 52ch; font-size: 1.2rem; line-height: 1.45; }
+.tema-fatos { margin: 0; max-width: 60ch; font-family: var(--ui); font-size: 0.95rem; font-weight: 600; }
+
+.filtros { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 0 0 22px; font-family: var(--ui); }
+.chip {
+  min-height: 40px; padding: 8px 16px; border: 1.5px solid var(--ink); border-radius: 99px;
+  background: transparent; color: var(--ink); cursor: pointer; font: 600 0.9rem var(--ui);
+}
+.chip:hover { background: color-mix(in srgb, var(--ink) 10%, transparent); }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.filtros label { display: flex; align-items: center; gap: 8px; margin-left: auto; font-size: 0.9rem; font-weight: 500; }
+
+/* ---------- Estante ---------- */
+
+.estante-grade {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 14px;
+  margin: 0; padding: 0; list-style: none;
+}
+@media (min-width: 720px) { .estante-grade { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px 20px; } }
+@media (min-width: 960px) { .estante-grade { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+
+.livro { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+
+.livro-capa {
+  position: relative; isolation: isolate; overflow: hidden; aspect-ratio: 3 / 4;
+  display: flex; flex-direction: column; justify-content: flex-end; gap: 6px; padding: 16px 14px 14px 20px;
+  background: var(--tema); color: var(--tema-ink);
+  border-radius: 4px 14px 14px 4px;
+  box-shadow: inset 7px 0 0 color-mix(in srgb, #000 24%, transparent), 0 2px 0 var(--hair);
+}
+.livro-capa .arte { position: absolute; z-index: -1; top: 0; right: 0; width: 100%; height: 56%; }
+.livro-titulo {
+  font-family: var(--display); font-weight: 700; font-size: clamp(1.05rem, 4.4vw, 1.4rem);
+  line-height: 1.1; letter-spacing: -0.01em; text-wrap: balance; overflow-wrap: anywhere;
+}
+.livro-autor { font-family: var(--ui); font-size: 0.8rem; font-weight: 600; line-height: 1.25; }
+.livro-nota { margin: 0; color: var(--ink); font-size: 1rem; letter-spacing: 0.12em; }
+.livro-comentario { margin: 0; color: var(--soft); font-size: 0.92rem; line-height: 1.4; }
+
+/* ---------- Matéria ---------- */
+
+.migalhas { display: flex; flex-wrap: wrap; gap: 6px 10px; margin-bottom: 16px; font-family: var(--ui); font-size: 0.9rem; font-weight: 600; }
+.migalhas [aria-hidden] { color: var(--muted); }
+
+.artigo-hero {
+  position: relative; isolation: isolate; overflow: hidden;
+  display: flex; flex-direction: column; justify-content: flex-end; gap: 14px;
+  min-height: clamp(280px, 46vw, 440px); margin-bottom: 36px; padding: 130px clamp(20px, 4vw, 44px) clamp(20px, 4vw, 44px);
+  background: var(--tema); color: var(--tema-ink); border-radius: var(--raio);
+}
+.artigo-hero .arte { position: absolute; z-index: -1; top: 0; right: 0; width: min(50%, 340px); height: auto; aspect-ratio: 4 / 3; }
+@media (min-width: 720px) { .tema-capa { padding-top: 210px; } .artigo-hero { padding-top: 190px; } }
+.artigo-titulo {
+  max-width: 20ch; margin: 0; font-family: var(--display); font-weight: 600;
+  font-size: clamp(2.1rem, 6.6vw, 4.1rem); line-height: 1.02; letter-spacing: -0.025em; text-wrap: balance;
+}
+@media (min-width: 720px) { .artigo-titulo { max-width: 26ch; } }
+
+.artigo { max-width: 720px; margin: 0 auto; }
+.artigo-lead { margin: 0 0 30px; color: var(--soft); font-family: var(--display); font-style: italic; font-size: 1.3rem; line-height: 1.45; }
+
+.leitura {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 50; height: 5px;
+  background: var(--tema); transform: scaleX(0); transform-origin: 0 50%;
+}
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .leitura { animation: cresce linear both; animation-timeline: scroll(root); }
+  }
+}
+@keyframes cresce { to { transform: scaleX(1); } }
+
+.corpo { font-size: 1.1875rem; line-height: 1.7; }
+.corpo p { margin: 0 0 1.15em; }
+.corpo h2 { margin: 1.8em 0 0.5em; font-family: var(--display); font-weight: 600; font-size: 1.65rem; line-height: 1.15; letter-spacing: -0.015em; }
+.corpo h3 { margin: 1.5em 0 0.4em; font-family: var(--display); font-weight: 600; font-size: 1.25rem; line-height: 1.2; }
+.corpo ul, .corpo ol { margin: 0 0 1.2em; padding-left: 1.3em; }
+.corpo li { margin-bottom: 0.55em; }
+.corpo a { text-underline-offset: 3px; }
+.corpo code {
+  padding: 0.1em 0.35em; border-radius: 3px;
+  background: color-mix(in srgb, var(--ink) 9%, transparent);
+  font-family: var(--mono); font-size: 0.88em;
+}
+
+.callout {
+  margin: 1.6em 0; padding: 16px 20px; border-left: 6px solid var(--tema); border-radius: 0 12px 12px 0;
+  background: color-mix(in srgb, var(--tema) 16%, var(--paper));
+}
+.callout p { margin: 0; }
+.callout-titulo { display: block; margin-bottom: 4px; font-family: var(--display); }
+
+.fontes { margin-top: 44px; padding-top: 14px; border-top: 4px double var(--ink); font-family: var(--ui); }
+.fontes h2 { margin: 0 0 10px; font-family: var(--display); font-size: 1.25rem; font-weight: 600; }
+.fontes ol { margin: 0; padding-left: 1.3em; }
+.fontes li { margin-bottom: 8px; }
+.fontes .host { margin-left: 8px; color: var(--muted); font-size: 0.85rem; }
+.aviso { margin: 18px 0 0; color: var(--muted); font-family: var(--ui); font-size: 0.9rem; }
+
+.relacionados { margin-top: 56px; }
+.relacionados .rotulo { margin-bottom: 12px; }
+
+/* ---------- Rodapé e mensagens ---------- */
+
+.rodape { padding: 18px 0 40px; border-top: 4px double var(--ink); color: var(--muted); font-family: var(--ui); font-size: 0.875rem; }
+.rodape p { margin: 0 0 4px; max-width: 70ch; }
+
+.mensagem { max-width: 56ch; padding: 40px 0; }
+.mensagem h1 { margin: 0 0 12px; font-family: var(--display); font-style: italic; font-size: clamp(1.8rem, 5vw, 2.6rem); font-weight: 600; line-height: 1.08; letter-spacing: -0.02em; }
+.mensagem p { margin: 0 0 12px; }
+.mensagem code { font-family: var(--mono); font-size: 0.9em; }

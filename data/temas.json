@@ -1,0 +1,132 @@
+[
+  {
+    "slug": "mercado",
+    "nome": "Mercado",
+    "descricao": "Notícias do mercado de livros no Brasil e no mundo: lançamentos, prêmios, adaptações, feiras e bienais.",
+    "estilo": "noticia",
+    "formatos": [
+      "reportagem",
+      "em-1-minuto",
+      "leituras"
+    ],
+    "validade_dias": 14,
+    "janela_horas": 26,
+    "max_posts_por_dia": 2,
+    "cor": "#7B1E3A",
+    "ativo": true,
+    "consultas": [
+      "lançamentos de livros da semana",
+      "mercado editorial notícias",
+      "prêmio literário anuncia vencedor",
+      "adaptação de livro para série ou filme",
+      "Bienal do Livro novidades",
+      "livros mais vendidos da semana",
+      "editora anuncia novo lançamento"
+    ],
+    "fontes_preferidas": [
+      "PublishNews",
+      "Quatro Cinco Um",
+      "Folha de S.Paulo (Ilustrada)",
+      "O Globo (Cultura)",
+      "Estadão (Cultura)",
+      "Publishers Weekly",
+      "The Guardian (Books)",
+      "sites oficiais das editoras"
+    ]
+  },
+  {
+    "slug": "autores",
+    "nome": "Autores",
+    "descricao": "Novidades dos autores que já estão na Estante: livros novos, entrevistas, adaptações e prêmios.",
+    "estilo": "noticia",
+    "formatos": [
+      "reportagem",
+      "em-1-minuto",
+      "leituras"
+    ],
+    "validade_dias": 30,
+    "janela_horas": 168,
+    "max_posts_por_dia": 1,
+    "cor": "#B5523B",
+    "ativo": true,
+    "consultas": [
+      "{autor} novo livro",
+      "{autor} lançamento",
+      "{autor} entrevista",
+      "{autor} adaptação série filme",
+      "{autor} prêmio"
+    ],
+    "fontes_preferidas": [
+      "sites oficiais das editoras",
+      "PublishNews",
+      "Quatro Cinco Um",
+      "Folha de S.Paulo (Ilustrada)",
+      "O Globo (Cultura)",
+      "perfis e sites oficiais dos autores"
+    ]
+  },
+  {
+    "slug": "indicacoes",
+    "nome": "Indicações",
+    "descricao": "Uma sugestão de leitura por dia, a partir do que já está na Estante.",
+    "estilo": "indicacao",
+    "formatos": [
+      "indicacao",
+      "em-1-minuto",
+      "leituras"
+    ],
+    "validade_dias": 60,
+    "janela_horas": 168,
+    "max_posts_por_dia": 1,
+    "cor": "#4F5D3A",
+    "ativo": true,
+    "consultas": [
+      "livros parecidos com {título da Estante}",
+      "se você gostou de {título da Estante} leia",
+      "{autor da Estante} por onde começar",
+      "romances brasileiros contemporâneos recomendados",
+      "clássicos curtos para ler em um fim de semana",
+      "ficção traduzida para o português recomendada",
+      "livros que viraram conversa entre leitores"
+    ],
+    "fontes_preferidas": [
+      "sites oficiais das editoras",
+      "Quatro Cinco Um",
+      "Skoob",
+      "Goodreads",
+      "listas e resenhas de jornais e revistas",
+      "blogs literários e comunidades de leitores"
+    ]
+  },
+  {
+    "slug": "comentarios",
+    "nome": "O que comentam",
+    "descricao": "O que leitores e críticos estão dizendo sobre um livro: o que elogiam, o que criticam, com link para cada fonte.",
+    "estilo": "comentarios",
+    "formatos": [
+      "comentarios",
+      "em-1-minuto",
+      "leituras"
+    ],
+    "validade_dias": 45,
+    "janela_horas": 168,
+    "max_posts_por_dia": 1,
+    "cor": "#D9A33B",
+    "ativo": true,
+    "consultas": [
+      "resenha {título}",
+      "{título} opinião dos leitores",
+      "{título} crítica",
+      "{título} vale a pena ler",
+      "{título} Skoob Goodreads avaliações"
+    ],
+    "fontes_preferidas": [
+      "resenhas em jornais e revistas",
+      "Quatro Cinco Um",
+      "Skoob",
+      "Goodreads",
+      "blogs literários",
+      "sites oficiais das editoras"
+    ]
+  }
+]
