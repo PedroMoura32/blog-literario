@@ -1,0 +1,20 @@
+{
+  "titulo": "Torto arado, de Itamar Vieira Junior: duas irmãs e a terra no sertão da Bahia",
+  "resumo": "Para quem leu A cabeça do santo e Tudo é rio, um romance brasileiro contemporâneo sobre duas irmãs numa fazenda do interior baiano. Linguagem poética, tema duro e muita força.",
+  "formato": "indicacao",
+  "data": "2026-10-27",
+  "destaque": false,
+  "tags": ["romance", "brasil", "contemporaneo", "bahia", "itamar-vieira-junior"],
+  "livro": { "titulo": "Torto arado", "autor": "Itamar Vieira Junior" },
+  "corpo": [
+    { "tipo": "p", "texto": "Se você leu *A cabeça do santo* e *Tudo é rio*, já sabe como é bom um romance brasileiro que mistura prosa de acento poético com histórias de gente comum levadas ao limite. *Torto arado* segue por esse caminho, num tom mais áspero e mais ligado à terra. Um dos livros que você já leu e que ficaram entre os mais bem avaliados da Estante, *Tudo é rio*, também trabalha com laços de família e feridas que não se fecham." },
+    { "tipo": "p", "texto": "O romance acompanha as irmãs Bibiana e Belonísia no interior da Bahia, num mundo de trabalho na terra e de fé, e mostra como um acidente de infância une as duas para sempre. Segundo a página do livro no Skoob, a Todavia o publicou em 2019 e ele ganhou o Prêmio Leya em 2018. O pano de fundo é a herança da escravidão e a vida dos trabalhadores rurais, tema que o autor trata sem didatismo, pela voz das personagens." },
+    { "tipo": "h2", "texto": "Antes de começar" },
+    { "tipo": "p", "texto": "O livro tem pouco mais de 250 páginas, segundo o Skoob, e a leitura costuma ser envolvente, embora emocionalmente pesada. Há violência, injustiça social e uma lesão corporal que marca a história inteira. Vale ler com calma e, se preferir, num momento em que você esteja disposto a temas duros." },
+    { "tipo": "callout", "titulo": "Combina se…", "texto": "você gosta de romance brasileiro com linguagem cuidada e quer uma história de irmandade que também fala do país." }
+  ],
+  "fontes": [
+    { "titulo": "Torto arado na página do livro no Skoob", "url": "https://www.skoob.com.br/torto-arado-915037ed921450.html" },
+    { "titulo": "Global Voices: entrevista com Itamar Vieira Junior", "url": "https://globalvoices.org/2022/11/03/values-lifetime-fights-can-be-lost-democracy-is-at-risk-says-brazilian-writer-itamar-vieira-jr/" }
+  ]
+}

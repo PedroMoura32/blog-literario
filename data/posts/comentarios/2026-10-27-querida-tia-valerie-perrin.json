@@ -1,0 +1,25 @@
+{
+  "titulo": "O que comentam sobre Querida tia, de Valérie Perrin",
+  "resumo": "Leitores e blogs elogiam a escrita sensível e a trama bem amarrada, mas apontam que o livro é longo e cheio de linhas paralelas. A média no Goodreads é de 4,08.",
+  "formato": "comentarios",
+  "data": "2026-10-27",
+  "destaque": false,
+  "tags": ["comentarios", "romance", "traduzido", "valerie-perrin"],
+  "livro": { "titulo": "Querida tia", "autor": "Valérie Perrin" },
+  "corpo": [
+    { "tipo": "p", "texto": "O consenso entre as fontes que lemos é que *Querida tia* emociona e prende, mas exige fôlego por causa do tamanho e das muitas histórias paralelas. Segundo o Goodreads, em 27 de outubro, a média era de 4,08 em 5, a partir de mais de 24 mil avaliações." },
+    { "tipo": "h2", "texto": "O que elogiam" },
+    { "tipo": "p", "texto": "O blog [Roendo Livros](https://www.roendolivros.com.br/2025/08/querida-tia-mais-um-hit-da-valerie.html) destaca a escrita sensível e poética e a história de uma das personagens, que se conta por fitas gravadas. O blog [Leituras de Mari](https://leiturasdemari.com.br/valerie-perrin-querida-tia-resenha/) elogia a estrutura que vai e volta no tempo e a forma como os fios da trama ficam claros, além de personagens que parecem gente de verdade. Já no [Goodreads](https://www.goodreads.com/book/show/219311761-querida-tia), muitos leitores falam do mistério da tia e das revelações perto do final." },
+    { "tipo": "h2", "texto": "O que criticam" },
+    { "tipo": "p", "texto": "O Roendo Livros achou o livro longo e disse que alguns capítulos perderam o interesse. No blog [Sofia Costa Lima](https://sofiacostalima.pt/2025/10/querida-tia-valerie-perrin/), a mistura de vozes deixa a história mais completa, mas algumas linhas paralelas parecem desnecessárias. No Goodreads, as queixas mais comuns são o tamanho, o excesso de temas e algumas viradas pouco convincentes." },
+    { "tipo": "h2", "texto": "Onde divergem" },
+    { "tipo": "p", "texto": "O Leituras de Mari quase não apontou defeitos, só disse ter adivinhado a grande revelação antes da hora, sem prejuízo da leitura. No Goodreads, parte dos leitores acha as reviravoltas forçadas. A estrutura em vários tempos também divide: para uns é um acerto, para outros dificulta acompanhar." },
+    { "tipo": "callout", "titulo": "Para quem é", "texto": "Para quem gosta de romances longos de mistério familiar e aceita uma leitura com muitos personagens e temas pesados, como abuso na infância." }
+  ],
+  "fontes": [
+    { "titulo": "Roendo Livros: Querida Tia", "url": "https://www.roendolivros.com.br/2025/08/querida-tia-mais-um-hit-da-valerie.html" },
+    { "titulo": "Leituras de Mari: resenha de Querida Tia", "url": "https://leiturasdemari.com.br/valerie-perrin-querida-tia-resenha/" },
+    { "titulo": "Sofia Costa Lima: Querida tia", "url": "https://sofiacostalima.pt/2025/10/querida-tia-valerie-perrin/" },
+    { "titulo": "Querida Tia no Goodreads", "url": "https://www.goodreads.com/book/show/219311761-querida-tia" }
+  ]
+}

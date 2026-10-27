@@ -1,5 +1,48 @@
 [
   {
+    "id": "2026-10-27-torto-arado-itamar-vieira-junior",
+    "tema": "indicacoes",
+    "titulo": "Torto arado, de Itamar Vieira Junior: duas irmãs e a terra no sertão da Bahia",
+    "resumo": "Para quem leu A cabeça do santo e Tudo é rio, um romance brasileiro contemporâneo sobre duas irmãs numa fazenda do interior baiano. Linguagem poética, tema duro e muita força.",
+    "formato": "indicacao",
+    "data": "2026-10-27",
+    "tempo_leitura_min": 1,
+    "destaque": false,
+    "exemplo": false,
+    "tags": [
+      "romance",
+      "brasil",
+      "contemporaneo",
+      "bahia",
+      "itamar-vieira-junior"
+    ],
+    "livro": {
+      "titulo": "Torto arado",
+      "autor": "Itamar Vieira Junior"
+    }
+  },
+  {
+    "id": "2026-10-27-querida-tia-valerie-perrin",
+    "tema": "comentarios",
+    "titulo": "O que comentam sobre Querida tia, de Valérie Perrin",
+    "resumo": "Leitores e blogs elogiam a escrita sensível e a trama bem amarrada, mas apontam que o livro é longo e cheio de linhas paralelas. A média no Goodreads é de 4,08.",
+    "formato": "comentarios",
+    "data": "2026-10-27",
+    "tempo_leitura_min": 1,
+    "destaque": false,
+    "exemplo": false,
+    "tags": [
+      "comentarios",
+      "romance",
+      "traduzido",
+      "valerie-perrin"
+    ],
+    "livro": {
+      "titulo": "Querida tia",
+      "autor": "Valérie Perrin"
+    }
+  },
+  {
     "id": "2026-10-26-querida-tia-valerie-perrin",
     "tema": "indicacoes",
     "titulo": "Querida tia, de Valérie Perrin: um mistério de família com ternura",
