@@ -1,0 +1,66 @@
+{
+  "titulo": "Jabuti 2026: Ruy Castro leva Livro do Ano pelo segundo ano seguido",
+  "resumo": "A cerimônia de 27 de outubro, em São Paulo, premiou Trincheira tropical como Livro do Ano. Eliana Alves Cruz venceu em Romance Literário e Ian Fraser, em Romance de Entretenimento.",
+  "formato": "reportagem",
+  "data": "2026-10-28",
+  "destaque": true,
+  "tags": [
+    "premio",
+    "jabuti",
+    "ficcao-brasileira",
+    "ruy-castro",
+    "ian-fraser"
+  ],
+  "livro": {
+    "titulo": "Trincheira tropical: a Segunda Guerra Mundial no Rio",
+    "autor": "Ruy Castro"
+  },
+  "corpo": [
+    {
+      "tipo": "p",
+      "texto": "O 68º Prêmio Jabuti anunciou seus vencedores na noite de terça-feira, 27 de outubro, na Sala São Paulo. Segundo o PublishNews e o Quatro Cinco Um, o Livro do Ano é *Trincheira tropical: a Segunda Guerra Mundial no Rio* (Companhia das Letras), de Ruy Castro. O livro, que trata de como a guerra mexeu com a vida dos moradores do Rio, também levou a categoria Biografia e Reportagem."
+    },
+    {
+      "tipo": "p",
+      "texto": "É a segunda vez seguida que Castro fica com o prêmio principal: em 2025, o vencedor foi *O ouvidor do Brasil: 99 vezes Tom Jobim*. De acordo com o jornal Estado de Minas, o autor não foi à cerimônia e a estatueta foi recebida por sua editora, Camila Berto. O Livro do Ano rende R$ 70 mil, e cada categoria premia com R$ 5 mil, conforme o Quatro Cinco Um."
+    },
+    {
+      "tipo": "h2",
+      "texto": "Na ficção"
+    },
+    {
+      "tipo": "p",
+      "texto": "Em Romance Literário, venceu *Meridiana* (Companhia das Letras), de Eliana Alves Cruz. Em Romance de Entretenimento, o prêmio foi para *Cartografia para caminhos incertos* (Intrínseca), de Ian Fraser, livro que está na Estante deste blog. Em Poesia, ganhou *Boris e Marina* (Companhia das Letras), de Alberto Martins, que superou o livro indicado de Adélia Prado, segundo o Estado de Minas."
+    },
+    {
+      "tipo": "p",
+      "texto": "Também foram premiados *Massaranduba* (Senac Rio), de Abáz, em Contos; *Viagem no país da crônica* (Tinta-da-China Brasil), de Humberto Werneck, em Crônica; e *A letra* (Maralto), de Leo Cunha e Raquel Matsushita, em Infantil."
+    },
+    {
+      "tipo": "h2",
+      "texto": "Homenagens"
+    },
+    {
+      "tipo": "p",
+      "texto": "A Personalidade Literária deste ano é Lygia Bojunga, aos 94 anos. O Quatro Cinco Um registra ainda uma homenagem da Câmara Brasileira do Livro a Zuenir Ventura, morto em setembro, aos 95 anos."
+    },
+    {
+      "tipo": "p",
+      "texto": "A lista completa, com todas as 23 categorias, está nas fontes abaixo."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Prêmio Jabuti 2026: conheça os vencedores (PublishNews)",
+      "url": "https://www.publishnews.com.br/materias/2026/10/27/premio-jabuti-2026-vencedores/"
+    },
+    {
+      "titulo": "Os vencedores do Prêmio Jabuti 2026 (Quatro Cinco Um)",
+      "url": "https://quatrocincoum.com.br/noticias/premios-literarios/os-vencedores-do-premio-jabuti-2026/"
+    },
+    {
+      "titulo": "Ruy Castro leva o Prêmio Jabuti de Livro do Ano (Estado de Minas)",
+      "url": "https://www.em.com.br/cultura/2026/10/7529197-ruy-castro-leva-o-premio-jabuti-de-livro-do-ano.html"
+    }
+  ]
+}

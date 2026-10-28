@@ -1,0 +1,51 @@
+{
+  "titulo": "Quatro mil semanas, de Oliver Burkeman: uma conversa sincera sobre o tempo que temos",
+  "resumo": "Para quem leu Essencialismo, um livro de não ficção que troca a promessa de fazer tudo pela pergunta de o que vale a pena fazer. Curto, leve e nada ansioso.",
+  "formato": "indicacao",
+  "data": "2026-10-28",
+  "destaque": false,
+  "tags": [
+    "nao-ficcao",
+    "traduzido",
+    "tempo",
+    "produtividade",
+    "oliver-burkeman"
+  ],
+  "livro": {
+    "titulo": "Quatro mil semanas: gestão de tempo para mortais",
+    "autor": "Oliver Burkeman"
+  },
+  "corpo": [
+    {
+      "tipo": "p",
+      "texto": "Se você leu *Essencialismo*, um dos livros mais bem avaliados da Estante, já conhece a ideia de que dizer não é parte de viver bem. *Quatro mil semanas* segue por esse caminho, mas com um tom mais reflexivo e menos de manual."
+    },
+    {
+      "tipo": "p",
+      "texto": "O ponto de partida é uma conta simples: quem chega aos 80 anos viveu cerca de quatro mil semanas. Burkeman, jornalista britânico, argumenta que a vontade de dar conta de tudo só aumenta a sobrecarga, e que aceitar nossos limites pode deixar a vida mais plena. Fala de escolher o que deixar de lado, de paciência e do hábito de adiar o que importa. A edição brasileira, com tradução de Paulo Geiger, saiu em 2022 pela Objetiva, com 208 páginas, segundo a Companhia das Letras e a Martins Fontes. Ainda segundo a editora, o livro foi eleito um dos melhores do ano por *Financial Times*, *The Guardian* e *The Observer*."
+    },
+    {
+      "tipo": "h2",
+      "texto": "Antes de começar"
+    },
+    {
+      "tipo": "p",
+      "texto": "É um livro curto, de ritmo tranquilo, que se lê em poucas sentadas. Como o assunto é a brevidade da vida, há passagens que falam de finitude e podem tocar quem está num momento delicado. Não traz uma lista de técnicas: é mais conversa do que método."
+    },
+    {
+      "tipo": "callout",
+      "titulo": "Combina se…",
+      "texto": "você gostou de *Essencialismo* e quer pensar o tempo com menos culpa e mais calma."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Quatro mil semanas (Companhia das Letras)",
+      "url": "https://www.companhiadasletras.com.br/livro/9788539007288/quatro-mil-semanas"
+    },
+    {
+      "titulo": "Quatro mil semanas (Martins Fontes Paulista)",
+      "url": "https://www.martinsfontespaulista.com.br/quatro-mil-semanas-993325/p"
+    }
+  ]
+}

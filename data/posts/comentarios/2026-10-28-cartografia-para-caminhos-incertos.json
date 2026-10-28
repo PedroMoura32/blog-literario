@@ -1,0 +1,75 @@
+{
+  "titulo": "O que comentam sobre Cartografia para caminhos incertos, de Ian Fraser",
+  "resumo": "Vencedor do Jabuti 2026 em Romance de Entretenimento, o livro é elogiado pela invenção e pela identidade baiana. Parte dos leitores acha o lirismo forçado e o ritmo lento.",
+  "formato": "comentarios",
+  "data": "2026-10-28",
+  "destaque": false,
+  "tags": [
+    "comentarios",
+    "romance",
+    "brasil",
+    "bahia",
+    "ian-fraser"
+  ],
+  "livro": {
+    "titulo": "Cartografia para caminhos incertos",
+    "autor": "Ian Fraser"
+  },
+  "corpo": [
+    {
+      "tipo": "p",
+      "texto": "O consenso entre as fontes que li: é um romance de realismo mágico, ambientado na Bahia, que encanta pela imaginação, embora nem todo leitor entre no ritmo dele. Na véspera desta matéria, em 27 de outubro, o livro ganhou o Jabuti de Romance de Entretenimento."
+    },
+    {
+      "tipo": "h2",
+      "texto": "O que elogiam"
+    },
+    {
+      "tipo": "p",
+      "texto": "Na resenha do [JornalNota](https://jornalnota.com.br/2025/08/13/cartografia-para-caminhos-incertos-ian-fraser-recupera-mundo-a-la-calvino-para-criar-obra-magica-e-pulsante/), de 13 de agosto de 2025, o crítico vê na invenção de cidades e personagens um antídoto à autoficção e compara a escrita simples e livre à de Italo Calvino. O blog [Resenhando](https://www.resenhando.com/2025/05/cartografia-para-caminhos-incertos.html), em texto de lançamento de 7 de maio de 2025, destaca a mistura de prosa e poesia e o mergulho na cultura baiana. Vale lembrar que esse segundo texto é bem promocional."
+    },
+    {
+      "tipo": "p",
+      "texto": "Entre os leitores, o [Goodreads](https://goodreads.com/book/show/228838038) mostra, segundo a página consultada em 28 de outubro, média de 4,30 em 278 avaliações. Os elogios mais frequentes falam da linguagem poética e bem-humorada e do folclore local. No [Skoob](https://www.skoob.com.br/pt/book/122556984?title=cartografia-para-caminhos-incertos), na mesma data, a média era 4,2, com 769 avaliações."
+    },
+    {
+      "tipo": "h2",
+      "texto": "O que criticam"
+    },
+    {
+      "tipo": "p",
+      "texto": "As ressalvas vêm sobretudo dos leitores. Segundo a página do Goodreads, alguns acharam o lirismo forçado ou repetitivo, o ritmo lento e a narrativa difícil de acompanhar em certos trechos. Outros disseram que a história não os envolveu emocionalmente. No JornalNota, a única ressalva é que as referências literárias nem sempre ficam claras."
+    },
+    {
+      "tipo": "h2",
+      "texto": "Onde divergem"
+    },
+    {
+      "tipo": "p",
+      "texto": "A linguagem poética é o ponto que mais divide: a crítica e muitos leitores a tratam como o maior trunfo, e outros a sentem como excesso. Como a maior parte dos textos de crítica é elogiosa, não dá para dizer que há consenso sobre os defeitos."
+    },
+    {
+      "tipo": "callout",
+      "titulo": "Para quem é",
+      "texto": "Para quem gosta de fábula, humor e linguagem inventiva, e não se importa com uma história mais lenta."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "JornalNota: resenha de Cartografia para caminhos incertos",
+      "url": "https://jornalnota.com.br/2025/08/13/cartografia-para-caminhos-incertos-ian-fraser-recupera-mundo-a-la-calvino-para-criar-obra-magica-e-pulsante/"
+    },
+    {
+      "titulo": "Resenhando: Cartografia para caminhos incertos",
+      "url": "https://www.resenhando.com/2025/05/cartografia-para-caminhos-incertos.html"
+    },
+    {
+      "titulo": "Cartografia para caminhos incertos no Goodreads",
+      "url": "https://goodreads.com/book/show/228838038"
+    },
+    {
+      "titulo": "Cartografia para caminhos incertos no Skoob",
+      "url": "https://www.skoob.com.br/pt/book/122556984?title=cartografia-para-caminhos-incertos"
+    }
+  ]
+}
