@@ -1,0 +1,24 @@
+{
+  "titulo": "O que comentam sobre Tudo é rio, de Carla Madeira",
+  "resumo": "Resenhas e leitores elogiam a escrita poética e as personagens intensas. As críticas miram o excesso de afetação e as escolhas de enredo. A média no Skoob, em 29 de outubro, era 4,3.",
+  "formato": "comentarios",
+  "data": "2026-10-29",
+  "destaque": false,
+  "tags": ["comentarios", "romance", "brasil", "carla-madeira"],
+  "livro": { "titulo": "Tudo é rio", "autor": "Carla Madeira" },
+  "corpo": [
+    { "tipo": "p", "texto": "O consenso é que *Tudo é rio* é um romance intenso e bem escrito, que prende pela força das personagens, mesmo quando divide opiniões sobre o estilo e sobre alguns caminhos da trama." },
+    { "tipo": "h2", "texto": "O que elogiam" },
+    { "tipo": "p", "texto": "Em resenha no [Arte no Sul](https://wp.ufpel.edu.br/artenosul/2025/08/11/entre-o-silencio-e-a-fluidez-tudo-e-rio-acontece/), publicada em 11 de agosto de 2025, Martha Cristina Melo destaca a escrita precisa, sem sentimentalismo, e o clima criado mais pelo que fica sugerido do que pelo que é dito. Ela também gosta das personagens, cada uma com manias e história próprias. No [Afinidades Eletivas](https://afinidades.substack.com/p/balanco-da-obra-de-carla-madeira?open=false), José Roberto de Luna Filho elogia a construção de personagens complexas e a imagem da água, que dá unidade à linguagem e renova a figura do rio. Entre os leitores, a página do livro no [Skoob](https://www.skoob.com.br/tudo-e-rio-435848ed493822.html) mostra, em 29 de outubro, média de 4,3 em cerca de 117 mil avaliações, e a resenha em destaque fala em escrita poderosa e sensível." },
+    { "tipo": "h2", "texto": "O que criticam" },
+    { "tipo": "p", "texto": "Para o Afinidades Eletivas, o estilo poético às vezes vira afetação, e as falas sábias de uma das personagens soam exageradas. O texto também considera o romance seguro e convencional na trama e na forma, e sente falta de maior diversidade de vozes. Já a resenha do Arte no Sul registra que parte dos leitores acha a personagem Lucy hipersexualizada e vê peso demais no ponto de vista masculino." },
+    { "tipo": "h2", "texto": "Onde divergem" },
+    { "tipo": "p", "texto": "O Arte no Sul defende que o exagero em Lucy é intencional e atribui muitas queixas ao incômodo com o que o livro mostra. O Afinidades Eletivas, por sua vez, vê pouca ousadia onde outros leitores veem coragem, e classifica o livro como \"ótimo livro\", mas não como um grande romance. No Skoob, a distribuição das notas mostra maioria de avaliações altas, com cerca de 7% de notas 1 ou 2 e 15% de nota 3." },
+    { "tipo": "callout", "titulo": "Para quem é", "texto": "Para quem gosta de prosa poética e emoções fortes, sabendo que o estilo e alguns temas dividem opiniões." }
+  ],
+  "fontes": [
+    { "titulo": "Arte no Sul (UFPel): Entre o silêncio e a fluidez, Tudo é rio acontece", "url": "https://wp.ufpel.edu.br/artenosul/2025/08/11/entre-o-silencio-e-a-fluidez-tudo-e-rio-acontece/" },
+    { "titulo": "Afinidades Eletivas: Balanço da obra de Carla Madeira, Tudo é rio", "url": "https://afinidades.substack.com/p/balanco-da-obra-de-carla-madeira?open=false" },
+    { "titulo": "Skoob: Tudo é rio", "url": "https://www.skoob.com.br/tudo-e-rio-435848ed493822.html" }
+  ]
+}

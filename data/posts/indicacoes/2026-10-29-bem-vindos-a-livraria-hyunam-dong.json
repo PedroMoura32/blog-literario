@@ -1,0 +1,20 @@
+{
+  "titulo": "Bem-vindos à livraria Hyunam-dong, de Hwang Bo-reum: uma livraria de bairro para recomeçar",
+  "resumo": "Para quem leu A inconveniente loja de conveniência, um romance sul-coreano sobre uma mulher que larga a corrida por sucesso e abre uma livraria. Ritmo lento, conversas miúdas e muito aconchego.",
+  "formato": "indicacao",
+  "data": "2026-10-29",
+  "destaque": false,
+  "tags": ["romance", "traduzido", "coreia-do-sul", "ficcao-reconfortante", "hwang-bo-reum"],
+  "livro": { "titulo": "Bem-vindos à livraria Hyunam-dong", "autor": "Hwang Bo-reum" },
+  "corpo": [
+    { "tipo": "p", "texto": "Se você leu *A inconveniente loja de conveniência*, vale conhecer outro romance sul-coreano que transforma um pequeno comércio de bairro em lugar de abrigo. E, se *Água fresca para flores* te agradou pelo cuidado com gente comum e seus recomeços, há algo dessa ternura aqui também." },
+    { "tipo": "p", "texto": "O livro acompanha Yeongju, que passou a vida atrás de êxito e aprovação e, depois de uma sequência de decepções, deixa essa rotina para abrir uma livraria no bairro. Ela descobre que amar livros não basta para tocar um negócio, e que a loja aos poucos vira ponto de encontro para clientes que dividem histórias e dúvidas. Segundo a [página do livro no Skoob](https://www.skoob.com.br/bem-vindos-a-livraria-hyunam-dong-122343962ed122350048.html), a edição brasileira é da Intrínseca, de 2023, e tem 272 páginas. Uma [resenha no Dear Youth](https://dearyouth.substack.com/p/resenha-bem-vindos-a-livraria-hyunam) lê a protagonista como reflexo da pressão por sucesso na sociedade sul-coreana atual." },
+    { "tipo": "h2", "texto": "Antes de começar" },
+    { "tipo": "p", "texto": "É um livro de tamanho médio e de leitura calma. A mesma resenha avisa que a história quase não tem ação: a tensão vem do cotidiano e das conversas, e a leitora levou algumas semanas para entrar no ritmo. O assunto mais delicado é a pressão por produtividade e reconhecimento. Não encontrei, nas fontes que li, avisos de conteúdo mais pesado." },
+    { "tipo": "callout", "titulo": "Combina se…", "texto": "você quer uma leitura de ritmo manso, sem grandes reviravoltas, para uma semana em que a cabeça pede descanso." }
+  ],
+  "fontes": [
+    { "titulo": "Skoob: Bem-vindos à livraria Hyunam-dong", "url": "https://www.skoob.com.br/bem-vindos-a-livraria-hyunam-dong-122343962ed122350048.html" },
+    { "titulo": "Dear Youth: resenha de Bem-vindos à livraria Hyunam-dong", "url": "https://dearyouth.substack.com/p/resenha-bem-vindos-a-livraria-hyunam" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "titulo": "Festa do Livro da USP chega à 28ª edição com 245 expositores, o maior número já registrado",
+  "resumo": "A feira acontece de 25 a 29 de novembro, na Cidade Universitária, em São Paulo. Todos os livros são vendidos com desconto mínimo de 50% e a entrada é gratuita.",
+  "formato": "reportagem",
+  "data": "2026-10-29",
+  "destaque": true,
+  "tags": ["feira", "festa-do-livro-usp", "sao-paulo", "editoras"],
+  "corpo": [
+    { "tipo": "p", "texto": "A 28ª Festa do Livro da USP já tem data e lista de participantes. O evento será de **25 a 29 de novembro de 2026**, na Cidade Universitária, em São Paulo, com organização da Edusp, a editora da universidade. Segundo o [PublishNews](https://www.publishnews.com.br/materias/2026/10/28/festa-do-livro-da-usp-2026-tem-numero-recorde-de-expositores/), serão cerca de 245 expositores, o maior número da história da feira." },
+    { "tipo": "p", "texto": "A regra que marca a festa continua valendo: cada título à venda precisa ter desconto de pelo menos 50% sobre o preço de capa. A entrada é gratuita. O funcionamento é das 9h às 21h, de quarta a sexta-feira, e das 9h às 19h, no sábado e no domingo. O [Catraca Livre](https://catracalivre.com.br/gira/festa-do-livro-da-usp-reune-245-editoras-com-desconto-minimo-de-50-na-cidade-universitaria/) também trata o total de editoras como recorde e confirma datas, horários e o desconto." },
+    { "tipo": "p", "texto": "Entre os participantes, 16 casas estreiam na festa. O PublishNews cita Arquipélago, Cosac, MASP e Instituto Tomie Ohtake. Brasiliense, Eduneb, PUCPress e Zarabatana voltam depois de um intervalo. A lista completa de expositores está no site do evento, com ferramenta de busca, e os catálogos de cada editora devem ser divulgados nas próximas semanas." },
+    { "tipo": "p", "texto": "A feira nasceu em 1999 para ampliar o acesso a livros acadêmicos. Hoje reúne vários gêneros e cerca de 260 mil títulos por edição. Segundo o PublishNews, as editoras dividem os custos e doam parte dos títulos às bibliotecas da USP. O modelo de descontos fortes, porém, não é consenso: o texto registra que o presidente da Associação Nacional de Livrarias, Alexandre Martins Fontes, criticou recentemente esse formato." },
+    { "tipo": "p", "texto": "Para chegar, a organização recomenda transporte público, como a Linha 4-Amarela do Metrô (estação Butantã) ou a Linha 9-Esmeralda da CPTM (estação Cidade Universitária), com ônibus circulares até a feira." }
+  ],
+  "fontes": [
+    { "titulo": "PublishNews: Festa do Livro da USP 2026 tem número recorde de expositores", "url": "https://www.publishnews.com.br/materias/2026/10/28/festa-do-livro-da-usp-2026-tem-numero-recorde-de-expositores/" },
+    { "titulo": "Catraca Livre: Festa do Livro da USP reúne 245 editoras com desconto mínimo de 50%", "url": "https://catracalivre.com.br/gira/festa-do-livro-da-usp-reune-245-editoras-com-desconto-minimo-de-50-na-cidade-universitaria/" }
+  ]
+}

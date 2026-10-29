@@ -1,5 +1,65 @@
 [
   {
+    "id": "2026-10-29-tudo-e-rio-carla-madeira",
+    "tema": "comentarios",
+    "titulo": "O que comentam sobre Tudo é rio, de Carla Madeira",
+    "resumo": "Resenhas e leitores elogiam a escrita poética e as personagens intensas. As críticas miram o excesso de afetação e as escolhas de enredo. A média no Skoob, em 29 de outubro, era 4,3.",
+    "formato": "comentarios",
+    "data": "2026-10-29",
+    "tempo_leitura_min": 2,
+    "destaque": false,
+    "exemplo": false,
+    "tags": [
+      "comentarios",
+      "romance",
+      "brasil",
+      "carla-madeira"
+    ],
+    "livro": {
+      "titulo": "Tudo é rio",
+      "autor": "Carla Madeira"
+    }
+  },
+  {
+    "id": "2026-10-29-festa-do-livro-usp-2026-recorde",
+    "tema": "mercado",
+    "titulo": "Festa do Livro da USP chega à 28ª edição com 245 expositores, o maior número já registrado",
+    "resumo": "A feira acontece de 25 a 29 de novembro, na Cidade Universitária, em São Paulo. Todos os livros são vendidos com desconto mínimo de 50% e a entrada é gratuita.",
+    "formato": "reportagem",
+    "data": "2026-10-29",
+    "tempo_leitura_min": 2,
+    "destaque": true,
+    "exemplo": false,
+    "tags": [
+      "feira",
+      "festa-do-livro-usp",
+      "sao-paulo",
+      "editoras"
+    ]
+  },
+  {
+    "id": "2026-10-29-bem-vindos-a-livraria-hyunam-dong",
+    "tema": "indicacoes",
+    "titulo": "Bem-vindos à livraria Hyunam-dong, de Hwang Bo-reum: uma livraria de bairro para recomeçar",
+    "resumo": "Para quem leu A inconveniente loja de conveniência, um romance sul-coreano sobre uma mulher que larga a corrida por sucesso e abre uma livraria. Ritmo lento, conversas miúdas e muito aconchego.",
+    "formato": "indicacao",
+    "data": "2026-10-29",
+    "tempo_leitura_min": 1,
+    "destaque": false,
+    "exemplo": false,
+    "tags": [
+      "romance",
+      "traduzido",
+      "coreia-do-sul",
+      "ficcao-reconfortante",
+      "hwang-bo-reum"
+    ],
+    "livro": {
+      "titulo": "Bem-vindos à livraria Hyunam-dong",
+      "autor": "Hwang Bo-reum"
+    }
+  },
+  {
     "id": "2026-10-28-quatro-mil-semanas-oliver-burkeman",
     "tema": "indicacoes",
     "titulo": "Quatro mil semanas, de Oliver Burkeman: uma conversa sincera sobre o tempo que temos",
