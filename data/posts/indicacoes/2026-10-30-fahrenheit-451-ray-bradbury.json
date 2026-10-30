@@ -1,0 +1,21 @@
+{
+  "titulo": "Fahrenheit 451, de Ray Bradbury: uma distopia curta sobre o valor de ler",
+  "resumo": "Para quem leu A revolução dos bichos, um clássico da ficção científica em que os livros são proibidos e um bombeiro começa a duvidar do próprio ofício. Curto, de leitura rápida e ainda atual.",
+  "formato": "indicacao",
+  "data": "2026-10-30",
+  "destaque": false,
+  "tags": ["distopia", "classico", "traduzido", "ficcao-cientifica", "ray-bradbury"],
+  "livro": { "titulo": "Fahrenheit 451", "autor": "Ray Bradbury" },
+  "corpo": [
+    { "tipo": "p", "texto": "Se você leu *A revolução dos bichos* e gostou de como uma história curta consegue falar de poder e de silêncio, *Fahrenheit 451* é um bom próximo passo. Os dois livros usam uma fábula de mundo inventado para falar do nosso, e ambos se leem em poucas sentadas." },
+    { "tipo": "p", "texto": "Publicado em 1953, o romance se passa num futuro em que ler é crime e os bombeiros existem para queimar livros. O protagonista, Guy Montag, nunca questionou o trabalho, até conhecer uma jovem que o faz olhar a rotina de outro jeito. A história também fala de telas, distração e conformismo. A edição brasileira da Biblioteca Azul, de 2012, tem tradução de Cid Knipel e 216 páginas, segundo a [página do livro no Skoob](https://www.skoob.com.br/fahrenheit-451-136ed284939.html) e a [Martins Fontes](https://www.martinsfontespaulista.com.br/fahrenheit-451-690167/p)." },
+    { "tipo": "h2", "texto": "Antes de começar" },
+    { "tipo": "p", "texto": "São cerca de 216 páginas, com ritmo ágil e linguagem simples. Uma resenha do [Escotilha](https://escotilha.com.br/literatura/livro-fahrenheit-451-ray-bradbury-resenha-critica) acha o final um pouco corrido. Há cenas de destruição e um momento de sofrimento psíquico de uma personagem, tratado com seriedade." },
+    { "tipo": "callout", "titulo": "Combina se…", "texto": "Você gosta de clássicos curtos com uma ideia forte e quer uma distopia que fale de livros e de atenção." }
+  ],
+  "fontes": [
+    { "titulo": "Skoob: Fahrenheit 451", "url": "https://www.skoob.com.br/fahrenheit-451-136ed284939.html" },
+    { "titulo": "Martins Fontes: Fahrenheit 451", "url": "https://www.martinsfontespaulista.com.br/fahrenheit-451-690167/p" },
+    { "titulo": "Escotilha: Fahrenheit 451, imagine um mundo onde os livros são proibidos", "url": "https://escotilha.com.br/literatura/livro-fahrenheit-451-ray-bradbury-resenha-critica" }
+  ]
+}

@@ -1,5 +1,67 @@
 [
   {
+    "id": "2026-10-30-torto-arado-itamar-vieira-junior",
+    "tema": "comentarios",
+    "titulo": "O que comentam sobre Torto arado, de Itamar Vieira Junior",
+    "resumo": "Críticos e leitores elogiam a prosa poética e a força do tema da terra. A principal ressalva vista nas fontes lidas é o tom didático da parte final. Segundo o Skoob, em 30 de outubro, a média era 4,5.",
+    "formato": "comentarios",
+    "data": "2026-10-30",
+    "tempo_leitura_min": 2,
+    "destaque": false,
+    "exemplo": false,
+    "tags": [
+      "comentarios",
+      "romance",
+      "brasil",
+      "bahia",
+      "itamar-vieira-junior"
+    ],
+    "livro": {
+      "titulo": "Torto arado",
+      "autor": "Itamar Vieira Junior"
+    }
+  },
+  {
+    "id": "2026-10-30-oceanos-2026-finalistas",
+    "tema": "mercado",
+    "titulo": "Oceanos 2026 anuncia 12 finalistas, com Adélia Prado, Agualusa e Micheliny Verunschk",
+    "resumo": "O prêmio de literatura em língua portuguesa divulgou, em 28 de outubro, seis finalistas em prosa e seis em poesia. Os vencedores serão conhecidos em 11 de dezembro.",
+    "formato": "reportagem",
+    "data": "2026-10-30",
+    "tempo_leitura_min": 1,
+    "destaque": true,
+    "exemplo": false,
+    "tags": [
+      "premio",
+      "oceanos",
+      "literatura-lusofona",
+      "poesia",
+      "adelia-prado"
+    ]
+  },
+  {
+    "id": "2026-10-30-fahrenheit-451-ray-bradbury",
+    "tema": "indicacoes",
+    "titulo": "Fahrenheit 451, de Ray Bradbury: uma distopia curta sobre o valor de ler",
+    "resumo": "Para quem leu A revolução dos bichos, um clássico da ficção científica em que os livros são proibidos e um bombeiro começa a duvidar do próprio ofício. Curto, de leitura rápida e ainda atual.",
+    "formato": "indicacao",
+    "data": "2026-10-30",
+    "tempo_leitura_min": 1,
+    "destaque": false,
+    "exemplo": false,
+    "tags": [
+      "distopia",
+      "classico",
+      "traduzido",
+      "ficcao-cientifica",
+      "ray-bradbury"
+    ],
+    "livro": {
+      "titulo": "Fahrenheit 451",
+      "autor": "Ray Bradbury"
+    }
+  },
+  {
     "id": "2026-10-29-tudo-e-rio-carla-madeira",
     "tema": "comentarios",
     "titulo": "O que comentam sobre Tudo é rio, de Carla Madeira",

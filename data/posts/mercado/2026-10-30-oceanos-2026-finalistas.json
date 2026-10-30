@@ -1,0 +1,18 @@
+{
+  "titulo": "Oceanos 2026 anuncia 12 finalistas, com Adélia Prado, Agualusa e Micheliny Verunschk",
+  "resumo": "O prêmio de literatura em língua portuguesa divulgou, em 28 de outubro, seis finalistas em prosa e seis em poesia. Os vencedores serão conhecidos em 11 de dezembro.",
+  "formato": "reportagem",
+  "data": "2026-10-30",
+  "destaque": true,
+  "tags": ["premio", "oceanos", "literatura-lusofona", "poesia", "adelia-prado"],
+  "corpo": [
+    { "tipo": "p", "texto": "O Prêmio Oceanos divulgou na noite de 28 de outubro, em evento no Teatro YouTube, em São Paulo, os 12 finalistas da edição 2026. Foram 3.086 obras inscritas, de autores de 13 nacionalidades. A lista final reúne escritores de Angola, Brasil, Moçambique e Portugal, divididos em seis títulos de prosa e seis de poesia." },
+    { "tipo": "p", "texto": "Na prosa, concorrem *A chuva que lança a areia do Saara*, de Ana Margarida de Carvalho; *Caderno de ossos*, de Julia Codo; *Depois do trovão*, de Micheliny Verunschk; *Não é ainda o pânico*, de Rui Nunes; *O mel sem abelhas*, de Judite Canha Fernandes; e *Tudo sobre Deus*, de José Eduardo Agualusa. Três dos seis títulos saem pela Companhia das Letras (no Brasil ou em Portugal)." },
+    { "tipo": "p", "texto": "Na poesia, os finalistas são *Antes de dar nomes ao mundo*, de Adriana Lisboa; *Corpos da memória*, de Helder Macedo; *Diáspora não é lar*, de Nina Rizzi; *O jardim das oliveiras*, de Adélia Prado; *Porte Étoile*, de Edimilson de Almeida Pereira; e *Tratado das coisas sensíveis*, de Pedro Pereira Lopes, de Moçambique." },
+    { "tipo": "p", "texto": "A escolha dos finalistas coube a júris separados para prosa e poesia, formados por críticos, escritores e pesquisadores dos países participantes. Os vencedores serão anunciados em 11 de dezembro, em cerimônia no teatro do Itaú Cultural, em São Paulo, segundo o Rascunho. O PublishNews não informa o valor do prêmio, e esta matéria também não o traz." }
+  ],
+  "fontes": [
+    { "titulo": "PublishNews: Adélia Prado e José Eduardo Agualusa entre os finalistas do Prêmio Oceanos 2026", "url": "https://www.publishnews.com.br/materias/2026/10/29/adelia-prado-e-jose-eduardo-agualusa-entre-os-finalistas-do-premio-oceanos-2026/" },
+    { "titulo": "Rascunho: Prêmio Oceanos anuncia os 12 finalistas de 2026", "url": "https://rascunho.com.br/noticias/premio-oceanos-anuncia-os-12-finalistas-de-2026/" }
+  ]
+}

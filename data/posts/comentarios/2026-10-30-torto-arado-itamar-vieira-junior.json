@@ -1,0 +1,25 @@
+{
+  "titulo": "O que comentam sobre Torto arado, de Itamar Vieira Junior",
+  "resumo": "Críticos e leitores elogiam a prosa poética e a força do tema da terra. A principal ressalva vista nas fontes lidas é o tom didático da parte final. Segundo o Skoob, em 30 de outubro, a média era 4,5.",
+  "formato": "comentarios",
+  "data": "2026-10-30",
+  "destaque": false,
+  "tags": ["comentarios", "romance", "brasil", "bahia", "itamar-vieira-junior"],
+  "livro": { "titulo": "Torto arado", "autor": "Itamar Vieira Junior" },
+  "corpo": [
+    { "tipo": "p", "texto": "O consenso nas fontes lidas é que *Torto arado* é um romance potente, que emociona pela linguagem e pelo retrato da vida no campo, com ressalvas pontuais ao tom da reta final." },
+    { "tipo": "h2", "texto": "O que elogiam" },
+    { "tipo": "p", "texto": "Na [Latin American Literature Today](https://latinamericanliteraturetoday.org/es/2021/11/land-and-time-torto-arado-marcelo-cordeiro-de-mello), em 19 de novembro de 2021, Marcelo Cordeiro de Mello admira a prosa poética e o diálogo do livro com o modernismo brasileiro e o realismo mágico latino-americano. Ele também valoriza o equilíbrio entre a cultura letrada e o saber tradicional da comunidade quilombola, além da força emocional dos temas da terra, da morte e da renovação. No [Traçado](https://tracado.substack.com/p/tracado-19-quem-escreveu-torto-arado), em 7 de julho de 2023, Juliano Nobrega chama o romance de \"monumento\" e diz que ele aproximou novos leitores da literatura. Entre os leitores, uma resenha em destaque no [Skoob](https://www.skoob.com.br/torto-arado-915037ed921450.html) fala em leitura fluida, histórias bem amarradas e voz dada a quem foi silenciado." },
+    { "tipo": "h2", "texto": "O que criticam" },
+    { "tipo": "p", "texto": "A crítica mais clara vem de Mello, que considera fraca a última parte, por ficar didática e próxima do panfleto. Para ele, a forma como a consciência política aparece soa paternalista, como se pessoas exploradas precisassem de alguém de fora para reconhecer o próprio sofrimento. É uma opinião de uma única fonte, e não aparece nas demais que consultei." },
+    { "tipo": "h2", "texto": "Onde divergem" },
+    { "tipo": "p", "texto": "Enquanto a resenha do Skoob vê um texto fluido e coeso, Mello aponta uma queda de qualidade no desfecho. O Traçado, vale dizer, só faz restrições a outro livro do autor, não a este." },
+    { "tipo": "p", "texto": "Segundo o Skoob, em 30 de outubro, a média era 4,5, em cerca de 56,9 mil avaliações." },
+    { "tipo": "callout", "titulo": "Para quem é", "texto": "Para quem gosta de romance brasileiro de linguagem poética e tema forte, sabendo que a parte final divide opiniões." }
+  ],
+  "fontes": [
+    { "titulo": "Latin American Literature Today: Land and Time, Torto arado (Marcelo Cordeiro de Mello)", "url": "https://latinamericanliteraturetoday.org/es/2021/11/land-and-time-torto-arado-marcelo-cordeiro-de-mello" },
+    { "titulo": "Traçado #19: Quem escreveu Torto arado não pode ser criticado?", "url": "https://tracado.substack.com/p/tracado-19-quem-escreveu-torto-arado" },
+    { "titulo": "Skoob: Torto arado", "url": "https://www.skoob.com.br/torto-arado-915037ed921450.html" }
+  ]
+}
