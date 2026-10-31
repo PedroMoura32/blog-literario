@@ -1,0 +1,71 @@
+{
+  "titulo": "O que comentam sobre A cabeça do santo, de Socorro Acioli",
+  "resumo": "Leitores e críticos elogiam a premissa original, o humor e o retrato do Nordeste. As ressalvas miram o desfecho corrido e a pouca profundidade de alguns personagens. Segundo o Skoob, em 31 de outubro, a média era 4,4.",
+  "formato": "comentarios",
+  "data": "2026-10-31",
+  "destaque": false,
+  "tags": [
+    "comentarios",
+    "romance",
+    "brasil",
+    "ceara",
+    "socorro-acioli"
+  ],
+  "livro": {
+    "titulo": "A cabeça do santo",
+    "autor": "Socorro Acioli"
+  },
+  "corpo": [
+    {
+      "tipo": "p",
+      "texto": "O consenso das fontes lidas: *A cabeça do santo* é uma leitura fluida e original, com realismo mágico e cor local, mas nem todo mundo se convence pelos personagens e pela condução do enredo. Segundo o [Skoob](https://www.skoob.com.br/book/421323), em 31 de outubro, a média era 4,4, com mais de 53 mil avaliações."
+    },
+    {
+      "tipo": "h2",
+      "texto": "O que elogiam"
+    },
+    {
+      "tipo": "p",
+      "texto": "Em coluna de 28 de maio, a colunista do [Brasil de Fato](https://www.brasildefato.com.br/colunista/samillyalexandre/2026/05/28/oc7b9kowe-o-brasil-que-reza-em-a-cabeca-do-santo/) destaca o humor, a oralidade nordestina e o modo como a estátua inacabada vira imagem de um país por terminar. Ela também valoriza que a autora não romantiza a fé. A resenha do [Na Nossa Estante](https://nanossaestante.com.br/2026/10/a-cabeca-do-santo-resenha-literaria/), de 11 de outubro, aponta uma narrativa rápida, com suspense até o fim, e vê no livro uma identidade nordestina própria, além da influência de García Márquez."
+    },
+    {
+      "tipo": "h2",
+      "texto": "O que criticam"
+    },
+    {
+      "tipo": "p",
+      "texto": "O Na Nossa Estante acha que, fora o protagonista, os personagens ficam pouco desenvolvidos. A resenhista também sente o desfecho apressado, em parte porque uma relação central se forma depressa demais. Já a newsletter de [Alessandra da Veiga](https://alessandradaveiga.substack.com/p/um-livro-ok-o-que-me-faltou-em-a-cabeca-do-santo), de 19 de outubro, reconhece o início bem montado, mas estranha as muitas coincidências que amarram a trama e a explicação prática para o mistério."
+    },
+    {
+      "tipo": "h2",
+      "texto": "Onde divergem"
+    },
+    {
+      "tipo": "p",
+      "texto": "O protagonista, Samuel, divide as opiniões. Para o Na Nossa Estante, ele muda ao longo da história e o sobrenatural funciona como caminho de amadurecimento. Para a newsletter, falta a ele dúvida e conflito interno, o que deixa a história com pouco drama. Sobre o realismo mágico, o Brasil de Fato o vê como ponto forte, enquanto a newsletter sente que a magia não parece natural para quem lê."
+    },
+    {
+      "tipo": "callout",
+      "titulo": "Para quem é",
+      "texto": "Para quem quer uma leitura curta, bem-humorada e cheia de cor local, e aceita um enredo mais simples do que o encanto do começo promete."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Skoob: A cabeça do santo",
+      "url": "https://www.skoob.com.br/book/421323"
+    },
+    {
+      "titulo": "Brasil de Fato: O Brasil que reza em A cabeça do santo",
+      "url": "https://www.brasildefato.com.br/colunista/samillyalexandre/2026/05/28/oc7b9kowe-o-brasil-que-reza-em-a-cabeca-do-santo/"
+    },
+    {
+      "titulo": "Na Nossa Estante: A cabeça do santo (resenha)",
+      "url": "https://nanossaestante.com.br/2026/10/a-cabeca-do-santo-resenha-literaria/"
+    },
+    {
+      "titulo": "Alessandra da Veiga: Um livro ok, o que me faltou em A cabeça do santo",
+      "url": "https://alessandradaveiga.substack.com/p/um-livro-ok-o-que-me-faltou-em-a-cabeca-do-santo"
+    }
+  ]
+}

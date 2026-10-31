@@ -1,5 +1,49 @@
 [
   {
+    "id": "2026-10-31-paciente-silenciosa-alex-michaelides",
+    "tema": "indicacoes",
+    "titulo": "A paciente silenciosa, de Alex Michaelides: um suspense psicológico para ler de uma sentada",
+    "resumo": "Para quem leu A garota no trem, um thriller sobre uma pintora que deixa de falar depois de um crime e o terapeuta que tenta entendê-la. Ritmo rápido, capítulos curtos e um mistério que prende.",
+    "formato": "indicacao",
+    "data": "2026-10-31",
+    "tempo_leitura_min": 1,
+    "destaque": false,
+    "exemplo": false,
+    "tags": [
+      "suspense",
+      "thriller-psicologico",
+      "traduzido",
+      "reino-unido",
+      "alex-michaelides"
+    ],
+    "livro": {
+      "titulo": "A paciente silenciosa",
+      "autor": "Alex Michaelides"
+    }
+  },
+  {
+    "id": "2026-10-31-a-cabeca-do-santo-socorro-acioli",
+    "tema": "comentarios",
+    "titulo": "O que comentam sobre A cabeça do santo, de Socorro Acioli",
+    "resumo": "Leitores e críticos elogiam a premissa original, o humor e o retrato do Nordeste. As ressalvas miram o desfecho corrido e a pouca profundidade de alguns personagens. Segundo o Skoob, em 31 de outubro, a média era 4,4.",
+    "formato": "comentarios",
+    "data": "2026-10-31",
+    "tempo_leitura_min": 2,
+    "destaque": false,
+    "exemplo": false,
+    "tags": [
+      "comentarios",
+      "romance",
+      "brasil",
+      "ceara",
+      "socorro-acioli"
+    ],
+    "livro": {
+      "titulo": "A cabeça do santo",
+      "autor": "Socorro Acioli"
+    }
+  },
+  {
     "id": "2026-10-30-torto-arado-itamar-vieira-junior",
     "tema": "comentarios",
     "titulo": "O que comentam sobre Torto arado, de Itamar Vieira Junior",

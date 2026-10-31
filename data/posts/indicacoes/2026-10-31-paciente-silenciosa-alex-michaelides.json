@@ -1,0 +1,55 @@
+{
+  "titulo": "A paciente silenciosa, de Alex Michaelides: um suspense psicológico para ler de uma sentada",
+  "resumo": "Para quem leu A garota no trem, um thriller sobre uma pintora que deixa de falar depois de um crime e o terapeuta que tenta entendê-la. Ritmo rápido, capítulos curtos e um mistério que prende.",
+  "formato": "indicacao",
+  "data": "2026-10-31",
+  "destaque": false,
+  "tags": [
+    "suspense",
+    "thriller-psicologico",
+    "traduzido",
+    "reino-unido",
+    "alex-michaelides"
+  ],
+  "livro": {
+    "titulo": "A paciente silenciosa",
+    "autor": "Alex Michaelides"
+  },
+  "corpo": [
+    {
+      "tipo": "p",
+      "texto": "Se você leu *A garota no trem*, um dos livros mais bem avaliados da sua Estante, vale conhecer *A paciente silenciosa*. Os dois são suspenses psicológicos em que a verdade vem aos poucos e quem conta a história nem sempre enxerga tudo. Se você leu *A revolução dos bichos* e curte livros que se leem rápido, o ritmo aqui também deve agradar."
+    },
+    {
+      "tipo": "p",
+      "texto": "Alicia Berenson, uma pintora famosa, atira no marido e nunca mais diz uma palavra. Internada em um hospital psiquiátrico forense, em Londres, ela vira um enigma público. O psicoterapeuta Theo Faber decide tratá-la e tenta descobrir o que aconteceu naquela noite. O livro é de 2019 no original. No Brasil, segundo a [página do livro na Record](https://www.record.com.br/en/products/a-paciente-silenciosa), a edição saiu em 20 de maio de 2019, com tradução de Clóvis Marques. Segundo a [página do livro no Skoob](https://www.skoob.com.br/a-paciente-silenciosa-853010ed858755.html), a média de leitores é de 4,3 em 5."
+    },
+    {
+      "tipo": "h2",
+      "texto": "Antes de começar"
+    },
+    {
+      "tipo": "p",
+      "texto": "São cerca de 350 a 370 páginas, conforme a edição, com capítulos curtos e leitura veloz. O ponto de partida envolve violência e saúde mental, com cenas em ambiente psiquiátrico. A conversa entre terapeuta e paciente pesa mais que a ação, então o clima é de tensão, não de correria."
+    },
+    {
+      "tipo": "callout",
+      "titulo": "Combina se…",
+      "texto": "Você gostou de A garota no trem e quer outro suspense psicológico de leitura rápida, com um enigma central bem desenhado."
+    }
+  ],
+  "fontes": [
+    {
+      "titulo": "Record: A paciente silenciosa",
+      "url": "https://www.record.com.br/en/products/a-paciente-silenciosa"
+    },
+    {
+      "titulo": "Skoob: A paciente silenciosa",
+      "url": "https://www.skoob.com.br/a-paciente-silenciosa-853010ed858755.html"
+    },
+    {
+      "titulo": "Goodreads: A paciente silenciosa",
+      "url": "https://www.goodreads.com/en/book/show/44033719-a-paciente-silenciosa"
+    }
+  ]
+}
