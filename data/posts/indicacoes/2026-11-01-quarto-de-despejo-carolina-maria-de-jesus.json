@@ -1,0 +1,20 @@
+{
+  "titulo": "Quarto de despejo, de Carolina Maria de Jesus: o diário de uma catadora de papel na favela do Canindé",
+  "resumo": "Para quem leu O menino que descobriu o vento, um clássico brasileiro em forma de diário sobre fome, desigualdade e a força de escrever. Leitura densa, em trechos curtos.",
+  "formato": "indicacao",
+  "data": "2026-11-01",
+  "destaque": false,
+  "tags": ["classico", "brasil", "diario", "nao-ficcao", "carolina-maria-de-jesus"],
+  "livro": { "titulo": "Quarto de despejo: diário de uma favelada", "autor": "Carolina Maria de Jesus" },
+  "corpo": [
+    { "tipo": "p", "texto": "Se você leu *O menino que descobriu o vento*, talvez goste de acompanhar outra história real em que a vontade de aprender enfrenta a falta de quase tudo. *Quarto de despejo* é um passo além: sai a África rural, entra a favela do Canindé, em São Paulo, e o relato vem em forma de diário." },
+    { "tipo": "p", "texto": "Carolina Maria de Jesus sobrevivia catando papel e escrevia em cadernos que encontrava no lixo. Nas páginas, ela anota a rotina de uma mãe que precisa arrumar comida para os filhos, o cansaço, a desigualdade e a teimosia de continuar escrevendo. O texto preserva a linguagem original da autora, o que dá ao livro uma voz inconfundível. Segundo o [Brasil de Fato](https://www.brasildefato.com.br/2021/02/27/quarto-de-despejo-diario-de-uma-favelada-e-relancado-em-edicao-especial/), a obra foi traduzida para 13 idiomas. A edição comemorativa de 60 anos, da Ática, saiu em 2021 e traz fotos, manuscritos, prefácio de Cidinha da Silva e ensaios, de acordo com [a página do livro no Skoob](https://www.skoob.com.br/book/11866438)." },
+    { "tipo": "h2", "texto": "Antes de começar" },
+    { "tipo": "p", "texto": "A edição comemorativa tem cerca de 264 páginas, segundo a página do livro no Skoob. Por ser um diário, funciona bem em pequenos trechos, sem pressa. Fome, miséria e desigualdade de classe, gênero e raça aparecem o tempo todo, e isso pode pesar: vale fazer pausas." },
+    { "tipo": "callout", "titulo": "Combina se…", "texto": "Você gosta de relatos reais, quer conhecer um clássico brasileiro e aceita uma leitura densa de realidade, mas de capítulos curtos." }
+  ],
+  "fontes": [
+    { "titulo": "Brasil de Fato: Quarto de despejo é relançado em edição especial", "url": "https://www.brasildefato.com.br/2021/02/27/quarto-de-despejo-diario-de-uma-favelada-e-relancado-em-edicao-especial/" },
+    { "titulo": "Skoob: Quarto de despejo - Diário de uma favelada (Ática, 2021)", "url": "https://www.skoob.com.br/book/11866438" }
+  ]
+}

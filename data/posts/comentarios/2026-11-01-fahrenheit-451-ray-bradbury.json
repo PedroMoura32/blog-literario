@@ -1,0 +1,24 @@
+{
+  "titulo": "O que comentam sobre Fahrenheit 451, de Ray Bradbury",
+  "resumo": "Leitores e críticos elogiam a premissa e o alerta sobre censura e conformismo. As ressalvas miram o ritmo e a pouca atenção a alguns personagens. Segundo o Skoob, em 1º de novembro, a média era 4,1.",
+  "formato": "comentarios",
+  "data": "2026-11-01",
+  "destaque": false,
+  "tags": ["comentarios", "distopia", "classico", "ficcao-cientifica", "ray-bradbury"],
+  "livro": { "titulo": "Fahrenheit 451", "autor": "Ray Bradbury" },
+  "corpo": [
+    { "tipo": "p", "texto": "Leitores e críticos concordam em um ponto: a ideia de uma sociedade que queima livros continua forte e atual, mesmo que a execução divida opiniões." },
+    { "tipo": "h2", "texto": "O que elogiam" },
+    { "tipo": "p", "texto": "Para a resenha do [Escotilha](https://escotilha.com.br/literatura/livro-fahrenheit-451-ray-bradbury-resenha-critica), de 30 de julho de 2017, o livro segue relevante pelo alerta contra a manipulação política e o conformismo alimentado pela mídia. O texto destaca a linguagem simples de Bradbury e lembra que, no romance, a censura depende em parte da passividade das próprias pessoas. O [Cultura Genial](https://www.culturagenial.com/fahrenheit-451/), em texto sem data visível, também é elogioso: aponta o simbolismo, a começar pelo título e pela figura da salamandra, e o fato de a literatura ser o assunto do próprio livro." },
+    { "tipo": "h2", "texto": "O que criticam" },
+    { "tipo": "p", "texto": "A mesma resenha do Escotilha sente falta de mais espaço para Clarisse, personagem breve, mas importante, e acha que os acontecimentos finais correm depressa demais. Um leitor do [Skoob](https://www.skoob.com.br/book/483241), em 29 de novembro de 2020, deu 2,5 estrelas: achou o ritmo lento, não se ligou aos personagens e se incomodou com um prefácio que antecipa informações da trama." },
+    { "tipo": "h2", "texto": "Onde divergem" },
+    { "tipo": "p", "texto": "O ritmo é o ponto de atrito. Para o Escotilha, a mensagem chega com eficácia e o livro é uma boa porta de entrada para as distopias clássicas. Para o leitor do Skoob, a premissa é forte, mas não rendeu na prática; ainda assim, ele recomenda o livro e lembra que cada pessoa reage de um jeito. Na página de uma das edições, segundo o Skoob, em 1º de novembro, a média era 4,1 em 5, com mais de 63 mil avaliações." },
+    { "tipo": "callout", "titulo": "Para quem é", "texto": "Para quem gosta de ideias fortes em livros curtos e aceita que ritmo e personagens podem não agradar a todos." }
+  ],
+  "fontes": [
+    { "titulo": "Escotilha: resenha crítica de Fahrenheit 451", "url": "https://escotilha.com.br/literatura/livro-fahrenheit-451-ray-bradbury-resenha-critica" },
+    { "titulo": "Cultura Genial: Fahrenheit 451, resumo e explicação", "url": "https://www.culturagenial.com/fahrenheit-451/" },
+    { "titulo": "Skoob: página de Fahrenheit 451", "url": "https://www.skoob.com.br/book/483241" }
+  ]
+}

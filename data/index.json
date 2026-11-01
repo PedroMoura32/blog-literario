@@ -1,5 +1,49 @@
 [
   {
+    "id": "2026-11-01-quarto-de-despejo-carolina-maria-de-jesus",
+    "tema": "indicacoes",
+    "titulo": "Quarto de despejo, de Carolina Maria de Jesus: o diário de uma catadora de papel na favela do Canindé",
+    "resumo": "Para quem leu O menino que descobriu o vento, um clássico brasileiro em forma de diário sobre fome, desigualdade e a força de escrever. Leitura densa, em trechos curtos.",
+    "formato": "indicacao",
+    "data": "2026-11-01",
+    "tempo_leitura_min": 1,
+    "destaque": false,
+    "exemplo": false,
+    "tags": [
+      "classico",
+      "brasil",
+      "diario",
+      "nao-ficcao",
+      "carolina-maria-de-jesus"
+    ],
+    "livro": {
+      "titulo": "Quarto de despejo: diário de uma favelada",
+      "autor": "Carolina Maria de Jesus"
+    }
+  },
+  {
+    "id": "2026-11-01-fahrenheit-451-ray-bradbury",
+    "tema": "comentarios",
+    "titulo": "O que comentam sobre Fahrenheit 451, de Ray Bradbury",
+    "resumo": "Leitores e críticos elogiam a premissa e o alerta sobre censura e conformismo. As ressalvas miram o ritmo e a pouca atenção a alguns personagens. Segundo o Skoob, em 1º de novembro, a média era 4,1.",
+    "formato": "comentarios",
+    "data": "2026-11-01",
+    "tempo_leitura_min": 2,
+    "destaque": false,
+    "exemplo": false,
+    "tags": [
+      "comentarios",
+      "distopia",
+      "classico",
+      "ficcao-cientifica",
+      "ray-bradbury"
+    ],
+    "livro": {
+      "titulo": "Fahrenheit 451",
+      "autor": "Ray Bradbury"
+    }
+  },
+  {
     "id": "2026-10-31-paciente-silenciosa-alex-michaelides",
     "tema": "indicacoes",
     "titulo": "A paciente silenciosa, de Alex Michaelides: um suspense psicológico para ler de uma sentada",
